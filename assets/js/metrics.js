@@ -91,7 +91,16 @@
     var host = document.getElementById("top-publications");
     if (!host) return;
 
-    host.innerHTML = publications
+    var ranked = publications
+      .slice()
+      .sort(function (a, b) {
+        var ac = a && a.citationCount !== null && a.citationCount !== undefined ? a.citationCount : -1;
+        var bc = b && b.citationCount !== null && b.citationCount !== undefined ? b.citationCount : -1;
+        if (bc !== ac) return bc - ac;
+        return yearToInt(b && b.year) - yearToInt(a && a.year);
+      });
+
+    host.innerHTML = ranked
       .slice(0, maxTopPublications)
       .map(function (pub) {
         var title = pub.title || "Untitled";
