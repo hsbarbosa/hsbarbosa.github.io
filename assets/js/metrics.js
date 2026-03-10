@@ -131,6 +131,40 @@
     loadAltmetricScript();
   }
 
+  function mapOpenAlexWorks(works) {
+    return works.map(function (work) {
+      var doi = work.doi ? work.doi.replace("https://doi.org/", "") : "";
+      return {
+        year: work.publication_year,
+        title: work.display_name,
+        venue:
+          (work.primary_location &&
+            work.primary_location.source &&
+            work.primary_location.source.display_name) ||
+          "",
+        authors: Array.isArray(work.authorships)
+          ? work.authorships
+              .map(function (a) {
+                return a && a.author ? a.author.display_name : "";
+              })
+              .filter(Boolean)
+          : [],
+        doiValue: doi || null,
+        doiUrl: work.doi || null,
+        citationCount: work.cited_by_count || 0,
+        abstract: decodeInvertedIndex(work.abstract_inverted_index || null) || null,
+      };
+    });
+  }
+
+  async function loadTopPublicationsFromOpenAlex() {
+    var worksRes = await fetch(worksEndpoint);
+    if (!worksRes.ok) throw new Error("openalex works fetch failed");
+    var worksData = await worksRes.json();
+    var works = Array.isArray(worksData.results) ? worksData.results : [];
+    renderPublications(mapOpenAlexWorks(works));
+  }
+
   function yearToInt(yearValue) {
     var n = parseInt(yearValue, 10);
     return Number.isNaN(n) ? 0 : n;
@@ -188,8 +222,13 @@
       throw new Error("invalid stats format");
     }
     renderMetrics(data.stats);
-    renderPublications(data.publications);
     renderRecentPublications(data.publications);
+    // Always prefer all-time top-cited list from OpenAlex on the publications page.
+    try {
+      await loadTopPublicationsFromOpenAlex();
+    } catch (_err) {
+      renderPublications(data.publications);
+    }
   }
 
   async function loadFromOpenAlex() {
@@ -207,29 +246,7 @@
     if (!worksRes.ok) throw new Error("openalex works fetch failed");
     var worksData = await worksRes.json();
     var works = Array.isArray(worksData.results) ? worksData.results : [];
-    var publications = works.map(function (work) {
-      var doi = work.doi ? work.doi.replace("https://doi.org/", "") : "";
-      return {
-        year: work.publication_year,
-        title: work.display_name,
-        venue:
-          (work.primary_location &&
-            work.primary_location.source &&
-            work.primary_location.source.display_name) ||
-          "",
-        authors: Array.isArray(work.authorships)
-          ? work.authorships
-              .map(function (a) {
-                return a && a.author ? a.author.display_name : "";
-              })
-              .filter(Boolean)
-          : [],
-        doiValue: doi || null,
-        doiUrl: work.doi || null,
-        citationCount: work.cited_by_count || 0,
-        abstract: decodeInvertedIndex(work.abstract_inverted_index || null) || null,
-      };
-    });
+    var publications = mapOpenAlexWorks(works);
     renderPublications(publications);
     renderRecentPublications(publications);
   }
