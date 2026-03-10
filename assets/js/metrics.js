@@ -5,6 +5,10 @@
     "https://api.openalex.org/works?filter=author.id:" +
     authorId +
     ",has_doi:true&sort=cited_by_count:desc&per-page=5";
+  var recentWorksEndpoint =
+    "https://api.openalex.org/works?filter=author.id:" +
+    authorId +
+    "&sort=publication_date:desc&per-page=12";
   var localStatsPath = "data/auto/stats.json";
   var maxTopPublications = 5;
 
@@ -136,6 +140,7 @@
       var doi = work.doi ? work.doi.replace("https://doi.org/", "") : "";
       return {
         year: work.publication_year,
+        publicationDate: work.publication_date || null,
         title: work.display_name,
         venue:
           (work.primary_location &&
@@ -165,9 +170,23 @@
     renderPublications(mapOpenAlexWorks(works));
   }
 
+  async function loadRecentPublicationsFromOpenAlex() {
+    var worksRes = await fetch(recentWorksEndpoint);
+    if (!worksRes.ok) throw new Error("openalex recent works fetch failed");
+    var worksData = await worksRes.json();
+    var works = Array.isArray(worksData.results) ? worksData.results : [];
+    renderRecentPublications(mapOpenAlexWorks(works));
+  }
+
   function yearToInt(yearValue) {
     var n = parseInt(yearValue, 10);
     return Number.isNaN(n) ? 0 : n;
+  }
+
+  function dateToStamp(value) {
+    if (!value || typeof value !== "string") return 0;
+    var t = Date.parse(value);
+    return Number.isNaN(t) ? 0 : t;
   }
 
   function renderRecentPublications(publications) {
@@ -177,6 +196,9 @@
     var sorted = publications
       .slice()
       .sort(function (a, b) {
+        var ad = dateToStamp(a.publicationDate);
+        var bd = dateToStamp(b.publicationDate);
+        if (bd !== ad) return bd - ad;
         var ay = yearToInt(a.year);
         var by = yearToInt(b.year);
         if (by !== ay) return by - ay;
@@ -222,7 +244,11 @@
       throw new Error("invalid stats format");
     }
     renderMetrics(data.stats);
-    renderRecentPublications(data.publications);
+    try {
+      await loadRecentPublicationsFromOpenAlex();
+    } catch (_err) {
+      renderRecentPublications(data.publications);
+    }
     if (Array.isArray(data.topPublications) && data.topPublications.length > 0) {
       renderPublications(data.topPublications);
       return;
@@ -250,9 +276,8 @@
     if (!worksRes.ok) throw new Error("openalex works fetch failed");
     var worksData = await worksRes.json();
     var works = Array.isArray(worksData.results) ? worksData.results : [];
-    var publications = mapOpenAlexWorks(works);
-    renderPublications(publications);
-    renderRecentPublications(publications);
+    renderPublications(mapOpenAlexWorks(works));
+    await loadRecentPublicationsFromOpenAlex();
   }
 
   async function init() {
