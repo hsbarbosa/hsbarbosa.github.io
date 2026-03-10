@@ -67,6 +67,62 @@ def fetch_openalex_author() -> dict:
     return fetch_json(f"https://api.openalex.org/authors/{OPENALEX_AUTHOR_ID}")
 
 
+def decode_openalex_inverted_index(index_obj: dict | None) -> str:
+    if not isinstance(index_obj, dict):
+        return ""
+    positioned = []
+    for word, positions in index_obj.items():
+        if not isinstance(positions, list):
+            continue
+        for pos in positions:
+            if isinstance(pos, int):
+                positioned.append((pos, word))
+    positioned.sort(key=lambda item: item[0])
+    return " ".join(word for _, word in positioned).strip()
+
+
+def fetch_openalex_top_publications(limit: int = 5) -> list[dict]:
+    url = (
+        "https://api.openalex.org/works"
+        f"?filter=author.id:{OPENALEX_AUTHOR_ID},has_doi:true"
+        f"&sort=cited_by_count:desc&per-page={limit}"
+    )
+    payload = fetch_json(url)
+    results = payload.get("results") or []
+    top = []
+    for work in results:
+        doi_url = work.get("doi")
+        doi_value = None
+        if isinstance(doi_url, str) and doi_url:
+            doi_value = doi_url.replace("https://doi.org/", "").strip()
+
+        authorships = work.get("authorships") or []
+        authors = []
+        for authorship in authorships:
+            name = ((authorship.get("author") or {}).get("display_name") or "").strip()
+            if name:
+                authors.append(name)
+
+        venue = (
+            ((work.get("primary_location") or {}).get("source") or {}).get("display_name")
+            or ""
+        )
+        abstract = decode_openalex_inverted_index(work.get("abstract_inverted_index"))
+        top.append(
+            {
+                "year": work.get("publication_year"),
+                "title": work.get("display_name") or "Untitled",
+                "authors": authors,
+                "venue": venue,
+                "doiValue": doi_value,
+                "doiUrl": doi_url if isinstance(doi_url, str) else None,
+                "citationCount": work.get("cited_by_count"),
+                "abstract": abstract or None,
+            }
+        )
+    return top
+
+
 def fetch_openalex_citation_for_doi(doi_value: str) -> int | None:
     doi_norm = (doi_value or "").strip().lower()
     if not doi_norm:
@@ -230,6 +286,7 @@ def build_stats() -> dict:
         (paper.get("influentialCitationCount") or 0)
         for paper in (s2_papers.get("data") or [])
     )
+    top_publications = fetch_openalex_top_publications(limit=5)
 
     orcid_works = fetch_json(
         f"https://pub.orcid.org/v3.0/{ORCID_ID}/works",
@@ -282,6 +339,7 @@ def build_stats() -> dict:
             "influentialCitationCount": influential,
         },
         "publications": publications,
+        "topPublications": top_publications,
     }
 
 

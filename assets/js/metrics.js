@@ -223,6 +223,10 @@
     }
     renderMetrics(data.stats);
     renderRecentPublications(data.publications);
+    if (Array.isArray(data.topPublications) && data.topPublications.length > 0) {
+      renderPublications(data.topPublications);
+      return;
+    }
     // Always prefer all-time top-cited list from OpenAlex on the publications page.
     try {
       await loadTopPublicationsFromOpenAlex();
