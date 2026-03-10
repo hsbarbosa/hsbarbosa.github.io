@@ -1,19 +1,34 @@
 {
-  "updated": "2026-03-10T18:05:44.928028+00:00",
-  "source": "semantic-scholar+orcid",
+  "updated": "2026-03-10T18:14:31.523245+00:00",
+  "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
     "semanticScholarAuthorId": "144447784",
-    "orcid": "0000-0002-3927-969X"
+    "orcid": "0000-0002-3927-969X",
+    "openAlexAuthorId": "A5068497573"
   },
   "stats": {
-    "paperCount": 24,
+    "paperCount": 58,
     "hIndex": 11,
-    "citationCount": 525,
-    "i10Index": null,
+    "citationCount": 1667,
+    "i10Index": 12,
     "influentialCitationCount": 61
   },
   "publications": [
+    {
+      "year": "2025",
+      "title": "A data-driven supervised machine learning approach to estimating global ambient air pollution concentrations with associated prediction intervals",
+      "authors": [
+        "Liam Jordan Berrisford",
+        "Hugo Barbosa",
+        "Ronaldo Menezes"
+      ],
+      "venue": "Royal Society Open Science",
+      "doiValue": "10.1098/rsos.241288",
+      "doiUrl": "https://doi.org/10.1098/rsos.241288",
+      "citationCount": 2,
+      "abstract": null
+    },
     {
       "year": "2025",
       "title": "DIGITAL AND PHYSICAL INFRASTRUCTURE INEQUALITIES AND STUDENT FLOW IN BRAZILIAN UPPER SECONDARY SCHOOLS: DATA-CENTRED INSIGHTS FROM THE NATIONAL SCHOOL CENSUS",
@@ -29,20 +44,6 @@
       "abstract": null
     },
     {
-      "year": "2025",
-      "title": "A data-driven supervised machine learning approach to estimating global ambient air pollution concentrations with associated prediction intervals",
-      "authors": [
-        "Liam Jordan Berrisford",
-        "Hugo Barbosa",
-        "Ronaldo Menezes"
-      ],
-      "venue": "Royal Society Open Science",
-      "doiValue": "10.1098/rsos.241288",
-      "doiUrl": "https://doi.org/10.1098/rsos.241288",
-      "citationCount": null,
-      "abstract": null
-    },
-    {
       "year": "2024",
       "title": "Mobility and transit segregation in urban spaces",
       "authors": [
@@ -53,8 +54,22 @@
       "venue": "Environment and Planning B: Urban Analytics and City Science",
       "doiValue": "10.1177/23998083231219294",
       "doiUrl": "https://doi.org/10.1177/23998083231219294",
-      "citationCount": 11,
-      "abstract": "Segregation is a highly nuanced concept that researchers have worked to define and measure over the past several decades. Conventional approaches tend to estimate segregation based on residential patterns. However, the residential dimension does not fully comprise individuals\u2019 interactions with their environment and, consequently, can misrepresent individuals\u2019 lived experiences. To address this gap, we analyse how segregation extends to other dimensions of the urban life. We accomplish this by using the Index of Concentration at the Extremes (ICE) to measure socioeconomic segregation at amenities and on public transit lines. Moreover, we consider the pivotal role that transport plays in democratising access to opportunities. Using transport networks, amenity visitations, and census data, we leverage agent-based models to approximate socioeconomic composition at amenities and on transit lines. Consequently, we can estimate socioeconomic segregation within the United States, for various aspects of urban life. We find that neighbourhoods that are segregated in the residential domain tend to exhibit similar levels of segregation in amenity visitation patterns and transit usage, albeit to a lesser extent. Moreover, we discover that low-income neighbourhoods experience a greater decrease from residential to amenity segregation, than their high-income segregated counterparts, highlighting how mobility can be used as a tool for overcoming residential inequalities, given the proper infrastructure. We identify inequalities embedded into transit service, which impose constraints on residents from segregated areas, limiting the neighbourhoods that they can access within an hour to areas that are similarly disadvantaged. By exploring socioeconomic segregation from a transit perspective, we underscore the importance of conceptualising experiential segregation, while also highlighting how transport systems can contribute to a cycle of disadvantage."
+      "citationCount": 8,
+      "abstract": null
+    },
+    {
+      "year": "2024",
+      "title": "A Data-Driven Supervised Machine Learning Approach to Estimating Global Ambient Air Pollution Concentrations With Associated Prediction Intervals",
+      "authors": [
+        "Berrisford, L.J.",
+        "Barbosa, H.",
+        "Menezes, R."
+      ],
+      "venue": "arXiv",
+      "doiValue": "10.48550/arXiv.2402.10248",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2402.10248",
+      "citationCount": 1,
+      "abstract": null
     },
     {
       "year": "2024",
@@ -76,6 +91,20 @@
     },
     {
       "year": "2024",
+      "title": "Public Transit Inequality in\u00a0the\u00a0Context of\u00a0the\u00a0Built Environment",
+      "authors": [
+        "Iyer, N.",
+        "Menezes, R.",
+        "Barbosa, H."
+      ],
+      "venue": "Springer Proceedings in Complexity",
+      "doiValue": "10.1007/978-3-031-57515-0_16",
+      "doiUrl": "https://doi.org/10.1007/978-3-031-57515-0_16",
+      "citationCount": 1,
+      "abstract": null
+    },
+    {
+      "year": "2024",
       "title": "The role of transport systems in housing insecurity: a mobility-based analysis",
       "authors": [
         "Iyer, N.",
@@ -86,34 +115,6 @@
       "doiValue": "10.1140/epjds/s13688-024-00489-8",
       "doiUrl": "https://doi.org/10.1140/epjds/s13688-024-00489-8",
       "citationCount": 1,
-      "abstract": "With trends of urbanisation on the rise, providing adequate housing to individuals remains a complex issue to be addressed. Often, the slow output of relevant housing policies, coupled with quickly increasing housing costs, leaves individuals with the burden of finding housing that is affordable and in a safe location. In this paper, we unveil how transit service to employment hubs, not just housing policies, can prevent individuals from improving their housing conditions. We approach this question in three steps, applying the workflow to 20 cities in the United States of America. First, we propose a comprehensive framework to quantify housing insecurity and assign a housing demographic to each neighbourhood. Second, we use transit-pedestrian networks and public transit timetables (GTFS feeds) to estimate the time it takes to travel between two neighbourhoods using public transportation. Third, we apply geospatial autocorrelation to identify employment hotspots for each housing demographic. Finally, we use stochastic modelling to highlight how commuting to areas associated with better housing conditions results in transit commute times of over an hour in 15 cities. Ultimately, we consider the compounded burdens that come with housing insecurity, by having poor transit access to employment areas. In doing so, we highlight the importance of understanding how negative outcomes of housing insecurity coincide with various urban mechanisms, particularly emphasising the role that public transportation plays in locking vulnerable demographics into a cycle of poverty."
-    },
-    {
-      "year": "2024",
-      "title": "A Data-Driven Supervised Machine Learning Approach to Estimating Global Ambient Air Pollution Concentrations With Associated Prediction Intervals",
-      "authors": [
-        "Berrisford, L.J.",
-        "Barbosa, H.",
-        "Menezes, R."
-      ],
-      "venue": "arXiv",
-      "doiValue": "10.48550/arXiv.2402.10248",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2402.10248",
-      "citationCount": null,
-      "abstract": null
-    },
-    {
-      "year": "2024",
-      "title": "Public Transit Inequality in\u00a0the\u00a0Context of\u00a0the\u00a0Built Environment",
-      "authors": [
-        "Iyer, N.",
-        "Menezes, R.",
-        "Barbosa, H."
-      ],
-      "venue": "Springer Proceedings in Complexity",
-      "doiValue": "10.1007/978-3-031-57515-0_16",
-      "doiUrl": "https://doi.org/10.1007/978-3-031-57515-0_16",
-      "citationCount": null,
       "abstract": null
     },
     {
@@ -135,6 +136,20 @@
     },
     {
       "year": "2023",
+      "title": "MOBILITY AND TRANSIT SEGREGATION IN URBAN SPACES",
+      "authors": [
+        "Iyer, N.",
+        "Menezes, R.",
+        "Barbosa, H."
+      ],
+      "venue": "arXiv",
+      "doiValue": "10.48550/arXiv.2304.07086",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2304.07086",
+      "citationCount": 1,
+      "abstract": null
+    },
+    {
+      "year": "2023",
       "title": "A Reinforcement Learning Algorithm for\u00a0Fair Electoral Redistricting in\u00a0Parliamentary Systems",
       "authors": [
         "Evans, C.",
@@ -143,7 +158,7 @@
       "venue": "Communications in Computer and Information Science",
       "doiValue": "10.1007/978-3-031-23618-1_11",
       "doiUrl": "https://doi.org/10.1007/978-3-031-23618-1_11",
-      "citationCount": null,
+      "citationCount": 0,
       "abstract": null
     },
     {
@@ -162,20 +177,6 @@
     },
     {
       "year": "2023",
-      "title": "MOBILITY AND TRANSIT SEGREGATION IN URBAN SPACES",
-      "authors": [
-        "Iyer, N.",
-        "Menezes, R.",
-        "Barbosa, H."
-      ],
-      "venue": "arXiv",
-      "doiValue": "10.48550/arXiv.2304.07086",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2304.07086",
-      "citationCount": null,
-      "abstract": null
-    },
-    {
-      "year": "2023",
       "title": "Network Entropy as a Measure of Socioeconomic Segregation in Residential and Employment Landscapes",
       "authors": [
         "Iyer, N.",
@@ -185,7 +186,7 @@
       "venue": "arXiv",
       "doiValue": "10.48550/arXiv.2304.10300",
       "doiUrl": "https://doi.org/10.48550/arXiv.2304.10300",
-      "citationCount": null,
+      "citationCount": 0,
       "abstract": null
     },
     {
@@ -199,25 +200,24 @@
       "venue": "Springer Proceedings in Complexity",
       "doiValue": "10.1007/978-3-031-28276-8_3",
       "doiUrl": "https://doi.org/10.1007/978-3-031-28276-8_3",
-      "citationCount": null,
+      "citationCount": 0,
       "abstract": null
     },
     {
       "year": "2022",
-      "title": "COVID-19 is linked to changes in the time-space dimension of human mobility",
+      "title": "Differences in the spatial landscape of urban mobility: Gender and socioeconomic perspectives",
       "authors": [
-        "Santana, C.",
-        "Botta, F.",
-        "Barbosa, H.",
-        "Privitera, F.",
+        "Macedo, M.",
+        "Lotero, L.",
+        "Cardillo, A.",
         "Menezes, R.",
-        "Clemente, R.D."
+        "Barbosa, H."
       ],
-      "venue": "arXiv",
-      "doiValue": "10.48550/arxiv.2201.06527",
-      "doiUrl": "https://doi.org/10.48550/arxiv.2201.06527",
-      "citationCount": null,
-      "abstract": null
+      "venue": "PLoS ONE",
+      "doiValue": "10.1371/journal.pone.0260874",
+      "doiUrl": "https://doi.org/10.1371/journal.pone.0260874",
+      "citationCount": 30,
+      "abstract": "Many of our routines and activities are linked to our ability to move; be it commuting to work, shopping for groceries, or meeting friends. Yet, factors that limit the individuals\u2019 ability to fully realise their mobility needs will ultimately affect the opportunities they can have access to (e.g. cultural activities, professional interactions). One important aspect frequently overlooked in human mobility studies is how gender-centred issues can amplify other sources of mobility disadvantages (e.g. socioeconomic inequalities), unevenly affecting the pool of opportunities men and women have access to. In this work, we leverage on a combination of computational, statistical, and information-theoretical approaches to investigate the existence of systematic discrepancies in the mobility diversity (i.e. the diversity of travel destinations) of (1) men and women from different socioeconomic backgrounds, and (2) work and non-work travels. Our analysis is based on datasets containing multiple instances of large-scale, official, travel surveys carried out in three major metropolitan areas in South America: Medell\u00edn and Bogot\u00e1 in Colombia, and S\u00e3o Paulo in Brazil. Our results indicate the presence of general discrepancies in the urban mobility diversities related to the gender and socioeconomic characteristics of the individuals. Lastly, this paper sheds new light on the possible origins of gender-level human mobility inequalities, contributing to the general understanding of disaggregated patterns in human mobility."
     },
     {
       "year": "2022",
@@ -235,42 +235,8 @@
       "venue": "PNAS Nexus",
       "doiValue": "10.1093/pnasnexus/pgac178",
       "doiUrl": "https://doi.org/10.1093/pnasnexus/pgac178",
-      "citationCount": null,
-      "abstract": null
-    },
-    {
-      "year": "2022",
-      "title": "Differences in the spatial landscape of urban mobility: Gender and socioeconomic perspectives",
-      "authors": [
-        "Macedo, M.",
-        "Lotero, L.",
-        "Cardillo, A.",
-        "Menezes, R.",
-        "Barbosa, H."
-      ],
-      "venue": "PLoS ONE",
-      "doiValue": "10.1371/journal.pone.0260874",
-      "doiUrl": "https://doi.org/10.1371/journal.pone.0260874",
-      "citationCount": null,
-      "abstract": null
-    },
-    {
-      "year": "2022",
-      "title": "Dynamic predictability and spatio-temporal contexts in human mobility",
-      "authors": [
-        "Poudyal, B.",
-        "Pacheco, D.",
-        "Oliveira, M.",
-        "Chen, Z.",
-        "Barbosa, H.S.",
-        "Menezes, R.",
-        "Ghoshal, G."
-      ],
-      "venue": "arXiv",
-      "doiValue": "10.48550/arXiv.2201.01376",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2201.01376",
-      "citationCount": null,
-      "abstract": null
+      "citationCount": 17,
+      "abstract": "Abstract While significant effort has been devoted to understand the role of intraurban characteristics on sustainability and growth, much remains to be understood about the effect of interurban interactions and the role cities have in determining each other\u2019s urban welfare. Here we consider a global mobility network of population flows between cities as a proxy for the communication between these regions, and analyze how it correlates with socioeconomic indicators. We use several measures of centrality to rank cities according to their importance in the mobility network, finding PageRank to be the most effective measure for reflecting these prosperity indicators. Our analysis reveals that the characterization of the welfare of cities based on mobility information hinges on their corresponding development stage. Namely, while network-based predictions of welfare correlate well with economic indicators in mature cities, for developing urban areas additional information about the prosperity of their mobility neighborhood is needed. We develop a simple generative model for the allocation of population flows out of a city that balances the costs and benefits of interaction with other cities that are successful, finding that it provides a strong fit to the flows observed in the global mobility network and highlights the differences in flow patterns between developed and developing urban regions. Our results hint towards the importance of leveraging interurban connections in service of urban development and welfare."
     },
     {
       "year": "2022",
@@ -294,7 +260,42 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-021-27567-z",
       "doiUrl": "https://doi.org/10.1038/s41467-021-27567-z",
-      "citationCount": null,
+      "citationCount": 4,
+      "abstract": "I n the work developed in Bassolas et al. 1"
+    },
+    {
+      "year": "2022",
+      "title": "COVID-19 is linked to changes in the time-space dimension of human mobility",
+      "authors": [
+        "Santana, C.",
+        "Botta, F.",
+        "Barbosa, H.",
+        "Privitera, F.",
+        "Menezes, R.",
+        "Clemente, R.D."
+      ],
+      "venue": "arXiv",
+      "doiValue": "10.48550/arxiv.2201.06527",
+      "doiUrl": "https://doi.org/10.48550/arxiv.2201.06527",
+      "citationCount": 1,
+      "abstract": null
+    },
+    {
+      "year": "2022",
+      "title": "Dynamic predictability and spatio-temporal contexts in human mobility",
+      "authors": [
+        "Poudyal, B.",
+        "Pacheco, D.",
+        "Oliveira, M.",
+        "Chen, Z.",
+        "Barbosa, H.S.",
+        "Menezes, R.",
+        "Ghoshal, G."
+      ],
+      "venue": "arXiv",
+      "doiValue": "10.48550/arXiv.2201.01376",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2201.01376",
+      "citationCount": 0,
       "abstract": null
     }
   ]

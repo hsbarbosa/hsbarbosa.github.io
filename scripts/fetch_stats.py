@@ -16,6 +16,7 @@ from urllib.request import Request, urlopen
 
 SEMANTIC_SCHOLAR_AUTHOR_ID = os.getenv("S2_AUTHOR_ID", "144447784")
 ORCID_ID = os.getenv("ORCID_ID", "0000-0002-3927-969X")
+OPENALEX_AUTHOR_ID = os.getenv("OPENALEX_AUTHOR_ID", "A5068497573")
 RECENT_YEAR_WINDOW = int(os.getenv("RECENT_YEAR_WINDOW", "5"))
 S2_MAX_PAPERS = int(os.getenv("S2_MAX_PAPERS", "1000"))
 OUTPUT_PATH = Path("data/auto/stats.json")
@@ -62,8 +63,35 @@ def fetch_s2_author_papers() -> dict:
     return fetch_json(url)
 
 
+def fetch_openalex_author() -> dict:
+    return fetch_json(f"https://api.openalex.org/authors/{OPENALEX_AUTHOR_ID}")
+
+
+def fetch_openalex_citation_for_doi(doi_value: str) -> int | None:
+    doi_norm = (doi_value or "").strip().lower()
+    if not doi_norm:
+        return None
+    oa_url = (
+        "https://api.openalex.org/works"
+        f"?filter=doi:{quote(doi_norm, safe='')}&per-page=1"
+    )
+    try:
+        payload = fetch_json(oa_url)
+    except RuntimeError:
+        return None
+    results = payload.get("results") or []
+    if not results:
+        return None
+    return results[0].get("cited_by_count")
+
+
 def normalize_text(value: str) -> str:
     return " ".join((value or "").split()).strip()
+
+
+def best_int(*values: int | None) -> int | None:
+    ints = [v for v in values if isinstance(v, int)]
+    return max(ints) if ints else None
 
 
 def year_from_orcid_summary(summary: dict) -> int:
@@ -100,7 +128,9 @@ def label_work_type(work_type: str) -> str:
     return labels.get(work_type, work_type.replace("-", " ").title())
 
 
-def enrich_orcid_recent_works(recent_groups: list[dict]) -> list[dict]:
+def enrich_orcid_recent_works(
+    recent_groups: list[dict], doi_citation_cache: dict[str, int | None]
+) -> list[dict]:
     enriched = []
     for group in recent_groups:
         summary = (group.get("work-summary") or [{}])[0]
@@ -161,6 +191,14 @@ def enrich_orcid_recent_works(recent_groups: list[dict]) -> list[dict]:
             except RuntimeError:
                 citation_count = None
             time.sleep(0.35)
+            if citation_count is None:
+                doi_key = doi_value.lower()
+                if doi_key not in doi_citation_cache:
+                    doi_citation_cache[doi_key] = fetch_openalex_citation_for_doi(
+                        doi_value
+                    )
+                    time.sleep(0.15)
+                citation_count = doi_citation_cache[doi_key]
 
         enriched.append(
             {
@@ -184,6 +222,10 @@ def enrich_orcid_recent_works(recent_groups: list[dict]) -> list[dict]:
 def build_stats() -> dict:
     s2_author = fetch_s2_author_with_retry()
     s2_papers = fetch_s2_author_papers()
+    try:
+        oa_author = fetch_openalex_author()
+    except RuntimeError:
+        oa_author = {}
     influential = sum(
         (paper.get("influentialCitationCount") or 0)
         for paper in (s2_papers.get("data") or [])
@@ -204,7 +246,8 @@ def build_stats() -> dict:
         if year_from_orcid_summary(summary) >= min_year:
             recent_groups.append(group)
 
-    publications = enrich_orcid_recent_works(recent_groups)
+    doi_citation_cache: dict[str, int | None] = {}
+    publications = enrich_orcid_recent_works(recent_groups, doi_citation_cache)
     publications.sort(
         key=lambda p: (
             int(p.get("year")) if str(p.get("year", "")).isdigit() else 0,
@@ -215,17 +258,27 @@ def build_stats() -> dict:
 
     return {
         "updated": datetime.now(timezone.utc).isoformat(),
-        "source": "semantic-scholar+orcid",
+        "source": "semantic-scholar+orcid+openalex-fallback",
         "author": {
             "name": s2_author.get("name") or "Hugo Barbosa",
             "semanticScholarAuthorId": SEMANTIC_SCHOLAR_AUTHOR_ID,
             "orcid": ORCID_ID,
+            "openAlexAuthorId": OPENALEX_AUTHOR_ID,
         },
         "stats": {
-            "paperCount": s2_author.get("paperCount"),
-            "hIndex": s2_author.get("hIndex"),
-            "citationCount": s2_author.get("citationCount"),
-            "i10Index": None,
+            "paperCount": best_int(
+                s2_author.get("paperCount"), oa_author.get("works_count")
+            ),
+            "hIndex": best_int(
+                s2_author.get("hIndex"),
+                (oa_author.get("summary_stats") or {}).get("h_index"),
+            ),
+            "citationCount": best_int(
+                s2_author.get("citationCount"), oa_author.get("cited_by_count")
+            ),
+            "i10Index": best_int(
+                (oa_author.get("summary_stats") or {}).get("i10_index")
+            ),
             "influentialCitationCount": influential,
         },
         "publications": publications,

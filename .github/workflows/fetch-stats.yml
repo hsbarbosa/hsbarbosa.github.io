@@ -24,6 +24,7 @@ jobs:
         env:
           S2_AUTHOR_ID: "144447784"
           ORCID_ID: "0000-0002-3927-969X"
+          OPENALEX_AUTHOR_ID: "A5068497573"
           RECENT_YEAR_WINDOW: "5"
           S2_MAX_PAPERS: "1000"
           S2_API_KEY: ${{ secrets.S2_API_KEY }}
