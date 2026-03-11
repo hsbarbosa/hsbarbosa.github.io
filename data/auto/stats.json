@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-10T18:24:18.719203+00:00",
+  "updated": "2026-03-11T06:59:59.242021+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -54,8 +54,8 @@
       "venue": "Environment and Planning B: Urban Analytics and City Science",
       "doiValue": "10.1177/23998083231219294",
       "doiUrl": "https://doi.org/10.1177/23998083231219294",
-      "citationCount": 8,
-      "abstract": null
+      "citationCount": 11,
+      "abstract": "Segregation is a highly nuanced concept that researchers have worked to define and measure over the past several decades. Conventional approaches tend to estimate segregation based on residential patterns. However, the residential dimension does not fully comprise individuals\u2019 interactions with their environment and, consequently, can misrepresent individuals\u2019 lived experiences. To address this gap, we analyse how segregation extends to other dimensions of the urban life. We accomplish this by using the Index of Concentration at the Extremes (ICE) to measure socioeconomic segregation at amenities and on public transit lines. Moreover, we consider the pivotal role that transport plays in democratising access to opportunities. Using transport networks, amenity visitations, and census data, we leverage agent-based models to approximate socioeconomic composition at amenities and on transit lines. Consequently, we can estimate socioeconomic segregation within the United States, for various aspects of urban life. We find that neighbourhoods that are segregated in the residential domain tend to exhibit similar levels of segregation in amenity visitation patterns and transit usage, albeit to a lesser extent. Moreover, we discover that low-income neighbourhoods experience a greater decrease from residential to amenity segregation, than their high-income segregated counterparts, highlighting how mobility can be used as a tool for overcoming residential inequalities, given the proper infrastructure. We identify inequalities embedded into transit service, which impose constraints on residents from segregated areas, limiting the neighbourhoods that they can access within an hour to areas that are similarly disadvantaged. By exploring socioeconomic segregation from a transit perspective, we underscore the importance of conceptualising experiential segregation, while also highlighting how transport systems can contribute to a cycle of disadvantage."
     },
     {
       "year": "2024",
@@ -235,8 +235,8 @@
       "venue": "PNAS Nexus",
       "doiValue": "10.1093/pnasnexus/pgac178",
       "doiUrl": "https://doi.org/10.1093/pnasnexus/pgac178",
-      "citationCount": 17,
-      "abstract": "Abstract While significant effort has been devoted to understand the role of intraurban characteristics on sustainability and growth, much remains to be understood about the effect of interurban interactions and the role cities have in determining each other\u2019s urban welfare. Here we consider a global mobility network of population flows between cities as a proxy for the communication between these regions, and analyze how it correlates with socioeconomic indicators. We use several measures of centrality to rank cities according to their importance in the mobility network, finding PageRank to be the most effective measure for reflecting these prosperity indicators. Our analysis reveals that the characterization of the welfare of cities based on mobility information hinges on their corresponding development stage. Namely, while network-based predictions of welfare correlate well with economic indicators in mature cities, for developing urban areas additional information about the prosperity of their mobility neighborhood is needed. We develop a simple generative model for the allocation of population flows out of a city that balances the costs and benefits of interaction with other cities that are successful, finding that it provides a strong fit to the flows observed in the global mobility network and highlights the differences in flow patterns between developed and developing urban regions. Our results hint towards the importance of leveraging interurban connections in service of urban development and welfare."
+      "citationCount": 20,
+      "abstract": null
     },
     {
       "year": "2022",
@@ -344,7 +344,7 @@
       "doiValue": "10.1038/s41467-019-12809-y",
       "doiUrl": "https://doi.org/10.1038/s41467-019-12809-y",
       "citationCount": 205,
-      "abstract": null
+      "abstract": "The recent trend of rapid urbanization makes it imperative to understand urban characteristics such as infrastructure, population distribution, jobs, and services that play a key role in urban livability and sustainability. A healthy debate exists on what constitutes optimal structure regarding livability in cities, interpolating, for instance, between mono- and poly-centric organization. Here anonymous and aggregated flows generated from three hundred million users, opted-in to Location History, are used to extract global Intra-urban trips. We develop a metric that allows us to classify cities and to establish a connection between mobility organization and key urban indicators. We demonstrate that cities with strong hierarchical mobility structure display an extensive use of public transport, higher levels of walkability, lower pollutant emissions per capita and better health indicators. Our framework outperforms previous metrics, is highly scalable and can be deployed with little cost, even in areas without resources for traditional data collection."
     },
     {
       "year": 2018,
@@ -359,7 +359,7 @@
       "doiValue": "10.1038/s41467-018-04978-z",
       "doiUrl": "https://doi.org/10.1038/s41467-018-04978-z",
       "citationCount": 170,
-      "abstract": "The betweenness centrality, a path-based global measure of flow, is a static predictor of congestion and load on networks. Here we demonstrate that its statistical distribution is invariant for planar networks, that are used to model many infrastructural and biological systems. Empirical analysis of street networks from 97 cities worldwide, along with simulations of random planar graph models, indicates the observed invariance to be a consequence of a bimodal regime consisting of an underlying tree structure for high betweenness nodes, and a low betweenness regime corresponding to loops providing local path alternatives. Furthermore, the high betweenness nodes display a non-trivial spatial clustering with increasing spatial correlation as a function of the edge-density. Our results suggest that the spatial distribution of betweenness is a more accurate discriminator than its statistics for comparing static congestion patterns and its evolution across cities as demonstrated by analyzing 200 years of street data for Paris."
+      "abstract": null
     },
     {
       "year": 2023,
@@ -376,7 +376,7 @@
       "doiValue": "10.1038/s41562-023-01660-3",
       "doiUrl": "https://doi.org/10.1038/s41562-023-01660-3",
       "citationCount": 55,
-      "abstract": null
+      "abstract": "Socio-economic constructs and urban topology are crucial drivers of human mobility patterns. During the coronavirus disease 2019 pandemic, these patterns were reshaped in their components: the spatial dimension represented by the daily travelled distance, and the temporal dimension expressed as the synchronization time of commuting routines. Here, leveraging location-based data from de-identified mobile phone users, we observed that, during lockdowns restrictions, the decrease of spatial mobility is interwoven with the emergence of asynchronous mobility dynamics. The lifting of restriction in urban mobility allowed a faster recovery of the spatial dimension compared with the temporal one. Moreover, the recovery in mobility was different depending on urbanization levels and economic stratification. In rural and low-income areas, the spatial mobility dimension suffered a more considerable disruption when compared with urbanized and high-income areas. In contrast, the temporal dimension was more affected in urbanized and high-income areas than in rural and low-income areas."
     },
     {
       "year": 2022,
