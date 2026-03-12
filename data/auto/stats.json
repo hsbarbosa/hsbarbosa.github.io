@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-11T06:59:59.242021+00:00",
+  "updated": "2026-03-12T07:01:48.579880+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -12,7 +12,7 @@
     "hIndex": 11,
     "citationCount": 1667,
     "i10Index": 12,
-    "influentialCitationCount": 61
+    "influentialCitationCount": 62
   },
   "publications": [
     {
@@ -54,8 +54,8 @@
       "venue": "Environment and Planning B: Urban Analytics and City Science",
       "doiValue": "10.1177/23998083231219294",
       "doiUrl": "https://doi.org/10.1177/23998083231219294",
-      "citationCount": 11,
-      "abstract": "Segregation is a highly nuanced concept that researchers have worked to define and measure over the past several decades. Conventional approaches tend to estimate segregation based on residential patterns. However, the residential dimension does not fully comprise individuals\u2019 interactions with their environment and, consequently, can misrepresent individuals\u2019 lived experiences. To address this gap, we analyse how segregation extends to other dimensions of the urban life. We accomplish this by using the Index of Concentration at the Extremes (ICE) to measure socioeconomic segregation at amenities and on public transit lines. Moreover, we consider the pivotal role that transport plays in democratising access to opportunities. Using transport networks, amenity visitations, and census data, we leverage agent-based models to approximate socioeconomic composition at amenities and on transit lines. Consequently, we can estimate socioeconomic segregation within the United States, for various aspects of urban life. We find that neighbourhoods that are segregated in the residential domain tend to exhibit similar levels of segregation in amenity visitation patterns and transit usage, albeit to a lesser extent. Moreover, we discover that low-income neighbourhoods experience a greater decrease from residential to amenity segregation, than their high-income segregated counterparts, highlighting how mobility can be used as a tool for overcoming residential inequalities, given the proper infrastructure. We identify inequalities embedded into transit service, which impose constraints on residents from segregated areas, limiting the neighbourhoods that they can access within an hour to areas that are similarly disadvantaged. By exploring socioeconomic segregation from a transit perspective, we underscore the importance of conceptualising experiential segregation, while also highlighting how transport systems can contribute to a cycle of disadvantage."
+      "citationCount": 8,
+      "abstract": null
     },
     {
       "year": "2024",
@@ -376,7 +376,7 @@
       "doiValue": "10.1038/s41562-023-01660-3",
       "doiUrl": "https://doi.org/10.1038/s41562-023-01660-3",
       "citationCount": 55,
-      "abstract": "Socio-economic constructs and urban topology are crucial drivers of human mobility patterns. During the coronavirus disease 2019 pandemic, these patterns were reshaped in their components: the spatial dimension represented by the daily travelled distance, and the temporal dimension expressed as the synchronization time of commuting routines. Here, leveraging location-based data from de-identified mobile phone users, we observed that, during lockdowns restrictions, the decrease of spatial mobility is interwoven with the emergence of asynchronous mobility dynamics. The lifting of restriction in urban mobility allowed a faster recovery of the spatial dimension compared with the temporal one. Moreover, the recovery in mobility was different depending on urbanization levels and economic stratification. In rural and low-income areas, the spatial mobility dimension suffered a more considerable disruption when compared with urbanized and high-income areas. In contrast, the temporal dimension was more affected in urbanized and high-income areas than in rural and low-income areas."
+      "abstract": null
     },
     {
       "year": 2022,
