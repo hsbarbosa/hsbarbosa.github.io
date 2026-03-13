@@ -119,6 +119,10 @@ a:focus {
   opacity: 0.8;
 }
 
+.submenu-toggle {
+  display: none;
+}
+
 .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -1283,36 +1287,93 @@ ul.clean {
 
 @media (max-width: 800px) {
   .nav-wrap {
-    overflow-x: auto;
-    padding-bottom: 0.85rem;
+    overflow: visible;
+    padding-top: 0.2rem;
+    padding-bottom: 1rem;
   }
 
   .site-nav ul {
-    min-width: max-content;
-    gap: 1.1rem;
+    min-width: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+    align-items: stretch;
+  }
+
+  .site-nav > ul > li {
+    width: 100%;
+  }
+
+  .nav-item-dropdown {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    column-gap: 0.35rem;
+  }
+
+  .site-nav > ul > li > a {
+    padding: 0.45rem 0;
+    font-size: 0.98rem;
+  }
+
+  .nav-item-dropdown > a::after {
+    content: "";
+  }
+
+  .submenu-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid #d8c9b6;
+    border-radius: 999px;
+    background: rgba(255, 248, 240, 0.72);
+    color: #3f342e;
+  }
+
+  .submenu-toggle span {
+    display: block;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-right: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    transform: rotate(45deg) translateY(-1px);
+    transition: transform 0.18s ease;
+  }
+
+  .nav-item-dropdown.is-open .submenu-toggle span {
+    transform: rotate(-135deg) translateY(-1px);
   }
 
   .dropdown-menu {
     position: static;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: stretch;
     gap: 0;
     min-width: 0;
     margin-top: 0.2rem;
-    padding: 0.2rem 0 0.35rem 0.7rem;
-    background: transparent;
-    border: 0;
+    margin-top: 0.35rem;
+    margin-bottom: 0.2rem;
+    padding: 0.55rem 0.75rem 0.35rem;
+    background: rgba(255, 248, 240, 0.72);
+    border: 1px solid #d8c9b6;
     box-shadow: none;
-    border-radius: 0;
+    border-radius: 18px;
     opacity: 1;
     visibility: visible;
     transform: none;
   }
 
+  .nav-item-dropdown.is-open .dropdown-menu {
+    display: flex;
+    grid-column: 1 / -1;
+  }
+
   .dropdown-menu a {
-    font-size: 0.82rem;
-    padding: 0.25rem 0;
+    font-size: 0.9rem;
+    padding: 0.42rem 0.2rem;
   }
 
   main {
