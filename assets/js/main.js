@@ -6,8 +6,12 @@
   var dropdowns = document.querySelectorAll(".nav-item-dropdown");
 
   dropdowns.forEach(function (item) {
-    var link = item.querySelector(":scope > a");
-    var menu = item.querySelector(":scope > .dropdown-menu");
+    var link = null;
+    var menu = null;
+    Array.prototype.forEach.call(item.children, function (child) {
+      if (!link && child.tagName === "A") link = child;
+      if (!menu && child.classList && child.classList.contains("dropdown-menu")) menu = child;
+    });
     if (!link || !menu) return;
 
     var toggle = document.createElement("button");
@@ -26,7 +30,7 @@
 
   function syncMobileMenus() {
     dropdowns.forEach(function (item) {
-      var toggle = item.querySelector(":scope > .submenu-toggle");
+      var toggle = item.querySelector(".submenu-toggle");
       if (!toggle) return;
       if (mobileQuery.matches) return;
       item.classList.remove("is-open");

@@ -1292,7 +1292,7 @@ ul.clean {
     padding-bottom: 1rem;
   }
 
-  .site-nav ul {
+  .site-nav > ul {
     min-width: 0;
     display: grid;
     grid-template-columns: 1fr;
@@ -1346,7 +1346,7 @@ ul.clean {
     transform: rotate(-135deg) translateY(-1px);
   }
 
-  .dropdown-menu {
+  .site-nav .dropdown-menu {
     position: static;
     display: none;
     flex-direction: column;
@@ -1366,12 +1366,17 @@ ul.clean {
     transform: none;
   }
 
+  .nav-item-dropdown:hover .dropdown-menu,
+  .nav-item-dropdown:focus-within .dropdown-menu {
+    display: none;
+  }
+
   .nav-item-dropdown.is-open .dropdown-menu {
     display: flex;
     grid-column: 1 / -1;
   }
 
-  .dropdown-menu a {
+  .site-nav .dropdown-menu a {
     font-size: 0.9rem;
     padding: 0.42rem 0.2rem;
   }
