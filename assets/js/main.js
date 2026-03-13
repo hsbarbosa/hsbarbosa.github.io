@@ -3,7 +3,24 @@
   if (yearNode) yearNode.textContent = String(new Date().getFullYear());
 
   var mobileQuery = window.matchMedia("(max-width: 800px)");
+  var navWrap = document.querySelector(".nav-wrap");
+  var siteNav = document.querySelector(".site-nav");
   var dropdowns = document.querySelectorAll(".nav-item-dropdown");
+
+  if (navWrap && siteNav) {
+    var navToggle = document.createElement("button");
+    navToggle.type = "button";
+    navToggle.className = "nav-toggle";
+    navToggle.setAttribute("aria-expanded", "false");
+    navToggle.setAttribute("aria-label", "Toggle navigation menu");
+    navToggle.innerHTML = "<span></span><span></span><span></span>";
+    navWrap.insertBefore(navToggle, siteNav);
+
+    navToggle.addEventListener("click", function () {
+      var open = navWrap.classList.toggle("nav-open");
+      navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  }
 
   dropdowns.forEach(function (item) {
     var link = null;
@@ -29,6 +46,12 @@
   });
 
   function syncMobileMenus() {
+    if (navWrap && !mobileQuery.matches) {
+      navWrap.classList.remove("nav-open");
+      var navToggle = navWrap.querySelector(".nav-toggle");
+      if (navToggle) navToggle.setAttribute("aria-expanded", "false");
+    }
+
     dropdowns.forEach(function (item) {
       var toggle = item.querySelector(".submenu-toggle");
       if (!toggle) return;
