@@ -2,7 +2,7 @@
   var yearNode = document.getElementById("current-year");
   if (yearNode) yearNode.textContent = String(new Date().getFullYear());
 
-  var targets = document.querySelectorAll(".hero, .card, .metric, .pub-item");
+  var targets = document.querySelectorAll(".hero, .card, .metric, .pub-item, [data-reveal]");
   targets.forEach(function (el) {
     el.classList.add("reveal");
   });
