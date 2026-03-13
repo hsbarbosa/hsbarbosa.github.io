@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 import time
 from datetime import datetime, timezone
@@ -21,6 +22,42 @@ RECENT_YEAR_WINDOW = int(os.getenv("RECENT_YEAR_WINDOW", "5"))
 S2_MAX_PAPERS = int(os.getenv("S2_MAX_PAPERS", "1000"))
 OUTPUT_PATH = Path("data/auto/stats.json")
 S2_API_KEY = os.getenv("S2_API_KEY", "").strip()
+SMALL_TITLE_WORDS = {
+    "a",
+    "an",
+    "and",
+    "as",
+    "at",
+    "but",
+    "by",
+    "for",
+    "from",
+    "in",
+    "into",
+    "nor",
+    "of",
+    "on",
+    "or",
+    "per",
+    "the",
+    "to",
+    "via",
+    "with",
+}
+TITLE_ACRONYMS = {
+    "ai": "AI",
+    "covid": "COVID",
+    "covid-19": "COVID-19",
+    "dna": "DNA",
+    "eu": "EU",
+    "gis": "GIS",
+    "gps": "GPS",
+    "ml": "ML",
+    "rna": "RNA",
+    "sars-cov-2": "SARS-CoV-2",
+    "uk": "UK",
+    "usa": "USA",
+}
 
 
 def fetch_json(url: str, accept: str = "application/json") -> dict:
@@ -123,7 +160,7 @@ def fetch_openalex_top_publications(limit: int = 5) -> list[dict]:
     return top
 
 
-def fetch_openalex_citation_for_doi(doi_value: str) -> int | None:
+def fetch_openalex_work_for_doi(doi_value: str) -> dict | None:
     doi_norm = (doi_value or "").strip().lower()
     if not doi_norm:
         return None
@@ -138,11 +175,73 @@ def fetch_openalex_citation_for_doi(doi_value: str) -> int | None:
     results = payload.get("results") or []
     if not results:
         return None
-    return results[0].get("cited_by_count")
+    return results[0]
 
 
 def normalize_text(value: str) -> str:
     return " ".join((value or "").split()).strip()
+
+
+def looks_all_caps_title(value: str) -> bool:
+    letters = [char for char in value if char.isalpha()]
+    return bool(letters) and all(char.isupper() for char in letters)
+
+
+def format_title_piece(piece: str, force_capitalize: bool) -> str:
+    lower = piece.lower()
+    if lower in TITLE_ACRONYMS:
+        return TITLE_ACRONYMS[lower]
+    if lower in SMALL_TITLE_WORDS and not force_capitalize:
+        return lower
+    return lower[:1].upper() + lower[1:]
+
+
+def title_case_token(token: str, force_capitalize: bool) -> str:
+    match = re.match(r"^([^A-Za-z0-9]*)(.*?)([^A-Za-z0-9]*)$", token)
+    if not match:
+        return token
+    prefix, core, suffix = match.groups()
+    if not core:
+        return token
+
+    parts = re.split(r"([/-])", core)
+    rendered = []
+    part_force_capitalize = force_capitalize
+    for part in parts:
+        if part in {"-", "/"}:
+            rendered.append(part)
+            part_force_capitalize = True
+            continue
+        rendered.append(format_title_piece(part, part_force_capitalize))
+        part_force_capitalize = False
+    return prefix + "".join(rendered) + suffix
+
+
+def normalize_title(value: str) -> str:
+    title = normalize_text(value)
+    if not looks_all_caps_title(title):
+        return title
+
+    tokens = re.split(r"(\s+)", title)
+    rendered = []
+    force_capitalize = True
+    for token in tokens:
+        if not token:
+            continue
+        if token.isspace():
+            rendered.append(token)
+            continue
+        rendered_token = title_case_token(token, force_capitalize)
+        rendered.append(rendered_token)
+        force_capitalize = rendered_token.rstrip().endswith(":")
+    return "".join(rendered)
+
+
+def fetch_openalex_citation_for_doi(doi_value: str) -> int | None:
+    work = fetch_openalex_work_for_doi(doi_value)
+    if not work:
+        return None
+    return work.get("cited_by_count")
 
 
 def best_int(*values: int | None) -> int | None:
@@ -188,6 +287,7 @@ def enrich_orcid_recent_works(
     recent_groups: list[dict], doi_citation_cache: dict[str, int | None]
 ) -> list[dict]:
     enriched = []
+    doi_work_cache: dict[str, dict | None] = {}
     for group in recent_groups:
         summary = (group.get("work-summary") or [{}])[0]
         put_code = summary.get("put-code")
@@ -200,7 +300,7 @@ def enrich_orcid_recent_works(
         except RuntimeError:
             continue
 
-        title = (
+        title = normalize_title(
             ((full.get("title") or {}).get("title") or {}).get("value")
             or "Untitled"
         )
@@ -233,6 +333,16 @@ def enrich_orcid_recent_works(
         citation_count = None
         abstract = normalize_text(full.get("short-description") or "")
         if doi_value:
+            doi_key = doi_value.lower()
+            if doi_key not in doi_work_cache:
+                doi_work_cache[doi_key] = fetch_openalex_work_for_doi(doi_value)
+                time.sleep(0.15)
+            oa_work = doi_work_cache[doi_key]
+            if oa_work:
+                oa_title = normalize_text(oa_work.get("display_name") or "")
+                if oa_title:
+                    title = oa_title
+
             doi_quoted = quote(doi_value, safe="")
             s2_url = (
                 "https://api.semanticscholar.org/graph/v1/paper/DOI:"
@@ -248,7 +358,6 @@ def enrich_orcid_recent_works(
                 citation_count = None
             time.sleep(0.35)
             if citation_count is None:
-                doi_key = doi_value.lower()
                 if doi_key not in doi_citation_cache:
                     doi_citation_cache[doi_key] = fetch_openalex_citation_for_doi(
                         doi_value
