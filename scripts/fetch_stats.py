@@ -341,7 +341,7 @@ def enrich_orcid_recent_works(
             if oa_work:
                 oa_title = normalize_text(oa_work.get("display_name") or "")
                 if oa_title:
-                    title = oa_title
+                    title = normalize_title(oa_title)
 
             doi_quoted = quote(doi_value, safe="")
             s2_url = (
