@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-17T07:10:31.501860+00:00",
+  "updated": "2026-03-18T07:07:18.934231+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -9,8 +9,8 @@
   },
   "stats": {
     "paperCount": 58,
-    "hIndex": 11,
-    "citationCount": 1673,
+    "hIndex": 12,
+    "citationCount": 1692,
     "i10Index": 12,
     "influentialCitationCount": 62
   },
@@ -54,22 +54,8 @@
       "venue": "Environment and Planning B: Urban Analytics and City Science",
       "doiValue": "10.1177/23998083231219294",
       "doiUrl": "https://doi.org/10.1177/23998083231219294",
-      "citationCount": 9,
-      "abstract": null
-    },
-    {
-      "year": "2024",
-      "title": "A Data-Driven Supervised Machine Learning Approach to Estimating Global Ambient Air Pollution Concentrations With Associated Prediction Intervals",
-      "authors": [
-        "Berrisford, L.J.",
-        "Barbosa, H.",
-        "Menezes, R."
-      ],
-      "venue": "arXiv",
-      "doiValue": "10.48550/arXiv.2402.10248",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2402.10248",
-      "citationCount": 1,
-      "abstract": null
+      "citationCount": 12,
+      "abstract": "Segregation is a highly nuanced concept that researchers have worked to define and measure over the past several decades. Conventional approaches tend to estimate segregation based on residential patterns. However, the residential dimension does not fully comprise individuals\u2019 interactions with their environment and, consequently, can misrepresent individuals\u2019 lived experiences. To address this gap, we analyse how segregation extends to other dimensions of the urban life. We accomplish this by using the Index of Concentration at the Extremes (ICE) to measure socioeconomic segregation at amenities and on public transit lines. Moreover, we consider the pivotal role that transport plays in democratising access to opportunities. Using transport networks, amenity visitations, and census data, we leverage agent-based models to approximate socioeconomic composition at amenities and on transit lines. Consequently, we can estimate socioeconomic segregation within the United States, for various aspects of urban life. We find that neighbourhoods that are segregated in the residential domain tend to exhibit similar levels of segregation in amenity visitation patterns and transit usage, albeit to a lesser extent. Moreover, we discover that low-income neighbourhoods experience a greater decrease from residential to amenity segregation, than their high-income segregated counterparts, highlighting how mobility can be used as a tool for overcoming residential inequalities, given the proper infrastructure. We identify inequalities embedded into transit service, which impose constraints on residents from segregated areas, limiting the neighbourhoods that they can access within an hour to areas that are similarly disadvantaged. By exploring socioeconomic segregation from a transit perspective, we underscore the importance of conceptualising experiential segregation, while also highlighting how transport systems can contribute to a cycle of disadvantage."
     },
     {
       "year": "2024",
@@ -86,8 +72,22 @@
       "venue": "Royal Society Open Science",
       "doiValue": "10.1098/rsos.240115",
       "doiUrl": "https://doi.org/10.1098/rsos.240115",
+      "citationCount": 3,
+      "abstract": null
+    },
+    {
+      "year": "2024",
+      "title": "A Data-Driven Supervised Machine Learning Approach to Estimating Global Ambient Air Pollution Concentrations With Associated Prediction Intervals",
+      "authors": [
+        "Berrisford, L.J.",
+        "Barbosa, H.",
+        "Menezes, R."
+      ],
+      "venue": "arXiv",
+      "doiValue": "10.48550/arXiv.2402.10248",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2402.10248",
       "citationCount": 1,
-      "abstract": "Human travelling behaviours are markedly regular, to a large extent predictable, and mostly driven by biological necessities and social constructs. Not surprisingly, such predictability is influenced by an array of factors ranging in scale from individual preferences and choices, through social groups and households, all the way to the global scale, such as mobility restrictions in response to external shocks such as pandemics. In this work, we explore how temporal, activity and location variations in individual-level mobility\u2014referred to as predictability states\u2014carry a large degree of information regarding the nature of mobility regularities at the population level. Our findings indicate the existence of contextual and activity signatures in predictability states, suggesting the potential for a more nuanced approach to estimating both short-term and higher-order mobility predictions. The existence of location contexts, in particular, serves as a parsimonious estimator for predictability patterns even in the case of low resolution and missing data."
+      "abstract": null
     },
     {
       "year": "2024",
@@ -344,7 +344,7 @@
       "doiValue": "10.1038/s41467-019-12809-y",
       "doiUrl": "https://doi.org/10.1038/s41467-019-12809-y",
       "citationCount": 205,
-      "abstract": null
+      "abstract": "The recent trend of rapid urbanization makes it imperative to understand urban characteristics such as infrastructure, population distribution, jobs, and services that play a key role in urban livability and sustainability. A healthy debate exists on what constitutes optimal structure regarding livability in cities, interpolating, for instance, between mono- and poly-centric organization. Here anonymous and aggregated flows generated from three hundred million users, opted-in to Location History, are used to extract global Intra-urban trips. We develop a metric that allows us to classify cities and to establish a connection between mobility organization and key urban indicators. We demonstrate that cities with strong hierarchical mobility structure display an extensive use of public transport, higher levels of walkability, lower pollutant emissions per capita and better health indicators. Our framework outperforms previous metrics, is highly scalable and can be deployed with little cost, even in areas without resources for traditional data collection."
     },
     {
       "year": 2018,
