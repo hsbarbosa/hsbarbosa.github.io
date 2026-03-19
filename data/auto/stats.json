@@ -1,5 +1,5 @@
 {
-  "updated": "2026-03-18T07:07:18.934231+00:00",
+  "updated": "2026-03-19T07:03:52.732069+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -59,6 +59,20 @@
     },
     {
       "year": "2024",
+      "title": "A Data-Driven Supervised Machine Learning Approach to Estimating Global Ambient Air Pollution Concentrations With Associated Prediction Intervals",
+      "authors": [
+        "Berrisford, L.J.",
+        "Barbosa, H.",
+        "Menezes, R."
+      ],
+      "venue": "arXiv",
+      "doiValue": "10.48550/arXiv.2402.10248",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2402.10248",
+      "citationCount": 1,
+      "abstract": null
+    },
+    {
+      "year": "2024",
       "title": "Dynamic predictability and activity-location contexts in human mobility",
       "authors": [
         "Poudyal, B.",
@@ -72,22 +86,8 @@
       "venue": "Royal Society Open Science",
       "doiValue": "10.1098/rsos.240115",
       "doiUrl": "https://doi.org/10.1098/rsos.240115",
-      "citationCount": 3,
-      "abstract": null
-    },
-    {
-      "year": "2024",
-      "title": "A Data-Driven Supervised Machine Learning Approach to Estimating Global Ambient Air Pollution Concentrations With Associated Prediction Intervals",
-      "authors": [
-        "Berrisford, L.J.",
-        "Barbosa, H.",
-        "Menezes, R."
-      ],
-      "venue": "arXiv",
-      "doiValue": "10.48550/arXiv.2402.10248",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2402.10248",
       "citationCount": 1,
-      "abstract": null
+      "abstract": "Human travelling behaviours are markedly regular, to a large extent predictable, and mostly driven by biological necessities and social constructs. Not surprisingly, such predictability is influenced by an array of factors ranging in scale from individual preferences and choices, through social groups and households, all the way to the global scale, such as mobility restrictions in response to external shocks such as pandemics. In this work, we explore how temporal, activity and location variations in individual-level mobility\u2014referred to as predictability states\u2014carry a large degree of information regarding the nature of mobility regularities at the population level. Our findings indicate the existence of contextual and activity signatures in predictability states, suggesting the potential for a more nuanced approach to estimating both short-term and higher-order mobility predictions. The existence of location contexts, in particular, serves as a parsimonious estimator for predictability patterns even in the case of low resolution and missing data."
     },
     {
       "year": "2024",
@@ -115,7 +115,7 @@
       "doiValue": "10.1140/epjds/s13688-024-00489-8",
       "doiUrl": "https://doi.org/10.1140/epjds/s13688-024-00489-8",
       "citationCount": 1,
-      "abstract": null
+      "abstract": "With trends of urbanisation on the rise, providing adequate housing to individuals remains a complex issue to be addressed. Often, the slow output of relevant housing policies, coupled with quickly increasing housing costs, leaves individuals with the burden of finding housing that is affordable and in a safe location. In this paper, we unveil how transit service to employment hubs, not just housing policies, can prevent individuals from improving their housing conditions. We approach this question in three steps, applying the workflow to 20 cities in the United States of America. First, we propose a comprehensive framework to quantify housing insecurity and assign a housing demographic to each neighbourhood. Second, we use transit-pedestrian networks and public transit timetables (GTFS feeds) to estimate the time it takes to travel between two neighbourhoods using public transportation. Third, we apply geospatial autocorrelation to identify employment hotspots for each housing demographic. Finally, we use stochastic modelling to highlight how commuting to areas associated with better housing conditions results in transit commute times of over an hour in 15 cities. Ultimately, we consider the compounded burdens that come with housing insecurity, by having poor transit access to employment areas. In doing so, we highlight the importance of understanding how negative outcomes of housing insecurity coincide with various urban mechanisms, particularly emphasising the role that public transportation plays in locking vulnerable demographics into a cycle of poverty."
     },
     {
       "year": "2023",
@@ -216,7 +216,7 @@
       "venue": "PLoS ONE",
       "doiValue": "10.1371/journal.pone.0260874",
       "doiUrl": "https://doi.org/10.1371/journal.pone.0260874",
-      "citationCount": 35,
+      "citationCount": 36,
       "abstract": null
     },
     {
@@ -235,8 +235,8 @@
       "venue": "PNAS Nexus",
       "doiValue": "10.1093/pnasnexus/pgac178",
       "doiUrl": "https://doi.org/10.1093/pnasnexus/pgac178",
-      "citationCount": 17,
-      "abstract": "Abstract While significant effort has been devoted to understand the role of intraurban characteristics on sustainability and growth, much remains to be understood about the effect of interurban interactions and the role cities have in determining each other\u2019s urban welfare. Here we consider a global mobility network of population flows between cities as a proxy for the communication between these regions, and analyze how it correlates with socioeconomic indicators. We use several measures of centrality to rank cities according to their importance in the mobility network, finding PageRank to be the most effective measure for reflecting these prosperity indicators. Our analysis reveals that the characterization of the welfare of cities based on mobility information hinges on their corresponding development stage. Namely, while network-based predictions of welfare correlate well with economic indicators in mature cities, for developing urban areas additional information about the prosperity of their mobility neighborhood is needed. We develop a simple generative model for the allocation of population flows out of a city that balances the costs and benefits of interaction with other cities that are successful, finding that it provides a strong fit to the flows observed in the global mobility network and highlights the differences in flow patterns between developed and developing urban regions. Our results hint towards the importance of leveraging interurban connections in service of urban development and welfare."
+      "citationCount": 20,
+      "abstract": null
     },
     {
       "year": "2022",
@@ -318,7 +318,7 @@
       "venue": "Physics Reports",
       "doiValue": "10.1016/j.physrep.2018.01.001",
       "doiUrl": "https://doi.org/10.1016/j.physrep.2018.01.001",
-      "citationCount": 988,
+      "citationCount": 990,
       "abstract": null
     },
     {
@@ -344,7 +344,7 @@
       "doiValue": "10.1038/s41467-019-12809-y",
       "doiUrl": "https://doi.org/10.1038/s41467-019-12809-y",
       "citationCount": 205,
-      "abstract": "The recent trend of rapid urbanization makes it imperative to understand urban characteristics such as infrastructure, population distribution, jobs, and services that play a key role in urban livability and sustainability. A healthy debate exists on what constitutes optimal structure regarding livability in cities, interpolating, for instance, between mono- and poly-centric organization. Here anonymous and aggregated flows generated from three hundred million users, opted-in to Location History, are used to extract global Intra-urban trips. We develop a metric that allows us to classify cities and to establish a connection between mobility organization and key urban indicators. We demonstrate that cities with strong hierarchical mobility structure display an extensive use of public transport, higher levels of walkability, lower pollutant emissions per capita and better health indicators. Our framework outperforms previous metrics, is highly scalable and can be deployed with little cost, even in areas without resources for traditional data collection."
+      "abstract": null
     },
     {
       "year": 2018,
@@ -376,7 +376,7 @@
       "doiValue": "10.1038/s41562-023-01660-3",
       "doiUrl": "https://doi.org/10.1038/s41562-023-01660-3",
       "citationCount": 55,
-      "abstract": null
+      "abstract": "Socio-economic constructs and urban topology are crucial drivers of human mobility patterns. During the coronavirus disease 2019 pandemic, these patterns were reshaped in their components: the spatial dimension represented by the daily travelled distance, and the temporal dimension expressed as the synchronization time of commuting routines. Here, leveraging location-based data from de-identified mobile phone users, we observed that, during lockdowns restrictions, the decrease of spatial mobility is interwoven with the emergence of asynchronous mobility dynamics. The lifting of restriction in urban mobility allowed a faster recovery of the spatial dimension compared with the temporal one. Moreover, the recovery in mobility was different depending on urbanization levels and economic stratification. In rural and low-income areas, the spatial mobility dimension suffered a more considerable disruption when compared with urbanized and high-income areas. In contrast, the temporal dimension was more affected in urbanized and high-income areas than in rural and low-income areas."
     },
     {
       "year": 2022,
@@ -391,7 +391,7 @@
       "venue": "PLoS ONE",
       "doiValue": "10.1371/journal.pone.0260874",
       "doiUrl": "https://doi.org/10.1371/journal.pone.0260874",
-      "citationCount": 35,
+      "citationCount": 36,
       "abstract": "Many of our routines and activities are linked to our ability to move; be it commuting to work, shopping for groceries, or meeting friends. Yet, factors that limit the individuals' ability to fully realise their mobility needs will ultimately affect the opportunities they can have access to (e.g. cultural activities, professional interactions). One important aspect frequently overlooked in human mobility studies is how gender-centred issues can amplify other sources of mobility disadvantages (e.g. socioeconomic inequalities), unevenly affecting the pool of opportunities men and women have access to. In this work, we leverage on a combination of computational, statistical, and information-theoretical approaches to investigate the existence of systematic discrepancies in the mobility diversity (i.e. the diversity of travel destinations) of (1) men and women from different socioeconomic backgrounds, and (2) work and non-work travels. Our analysis is based on datasets containing multiple instances of large-scale, official, travel surveys carried out in three major metropolitan areas in South America: Medell\u00edn and Bogot\u00e1 in Colombia, and S\u00e3o Paulo in Brazil. Our results indicate the presence of general discrepancies in the urban mobility diversities related to the gender and socioeconomic characteristics of the individuals. Lastly, this paper sheds new light on the possible origins of gender-level human mobility inequalities, contributing to the general understanding of disaggregated patterns in human mobility."
     }
   ]
