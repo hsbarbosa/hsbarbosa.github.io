@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-15T07:54:12.236331+00:00",
+  "updated": "2026-04-16T07:54:02.414525+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -260,8 +260,8 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-021-27567-z",
       "doiUrl": "https://doi.org/10.1038/s41467-021-27567-z",
-      "citationCount": 6,
-      "abstract": null
+      "citationCount": 4,
+      "abstract": "I n the work developed in Bassolas et al. 1"
     },
     {
       "year": "2022",
