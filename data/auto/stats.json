@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-25T07:23:52.987484+00:00",
+  "updated": "2026-04-26T07:45:14.221395+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -10,7 +10,7 @@
   "stats": {
     "paperCount": 59,
     "hIndex": 12,
-    "citationCount": 1748,
+    "citationCount": 1749,
     "i10Index": 13,
     "influentialCitationCount": 62
   },
@@ -54,7 +54,21 @@
       "venue": "Environment and Planning B: Urban Analytics and City Science",
       "doiValue": "10.1177/23998083231219294",
       "doiUrl": "https://doi.org/10.1177/23998083231219294",
-      "citationCount": 9,
+      "citationCount": 10,
+      "abstract": null
+    },
+    {
+      "year": "2024",
+      "title": "A Data-Driven Supervised Machine Learning Approach to Estimating Global Ambient Air Pollution Concentrations With Associated Prediction Intervals",
+      "authors": [
+        "Berrisford, L.J.",
+        "Barbosa, H.",
+        "Menezes, R."
+      ],
+      "venue": "arXiv",
+      "doiValue": "10.48550/arXiv.2402.10248",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2402.10248",
+      "citationCount": 1,
       "abstract": null
     },
     {
@@ -72,22 +86,8 @@
       "venue": "Royal Society Open Science",
       "doiValue": "10.1098/rsos.240115",
       "doiUrl": "https://doi.org/10.1098/rsos.240115",
-      "citationCount": 3,
-      "abstract": null
-    },
-    {
-      "year": "2024",
-      "title": "A Data-Driven Supervised Machine Learning Approach to Estimating Global Ambient Air Pollution Concentrations With Associated Prediction Intervals",
-      "authors": [
-        "Berrisford, L.J.",
-        "Barbosa, H.",
-        "Menezes, R."
-      ],
-      "venue": "arXiv",
-      "doiValue": "10.48550/arXiv.2402.10248",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2402.10248",
       "citationCount": 1,
-      "abstract": null
+      "abstract": "Human travelling behaviours are markedly regular, to a large extent predictable, and mostly driven by biological necessities and social constructs. Not surprisingly, such predictability is influenced by an array of factors ranging in scale from individual preferences and choices, through social groups and households, all the way to the global scale, such as mobility restrictions in response to external shocks such as pandemics. In this work, we explore how temporal, activity and location variations in individual-level mobility\u2014referred to as predictability states\u2014carry a large degree of information regarding the nature of mobility regularities at the population level. Our findings indicate the existence of contextual and activity signatures in predictability states, suggesting the potential for a more nuanced approach to estimating both short-term and higher-order mobility predictions. The existence of location contexts, in particular, serves as a parsimonious estimator for predictability patterns even in the case of low resolution and missing data."
     },
     {
       "year": "2024",
@@ -235,8 +235,8 @@
       "venue": "PNAS Nexus",
       "doiValue": "10.1093/pnasnexus/pgac178",
       "doiUrl": "https://doi.org/10.1093/pnasnexus/pgac178",
-      "citationCount": 17,
-      "abstract": "Abstract While significant effort has been devoted to understand the role of intraurban characteristics on sustainability and growth, much remains to be understood about the effect of interurban interactions and the role cities have in determining each other\u2019s urban welfare. Here we consider a global mobility network of population flows between cities as a proxy for the communication between these regions, and analyze how it correlates with socioeconomic indicators. We use several measures of centrality to rank cities according to their importance in the mobility network, finding PageRank to be the most effective measure for reflecting these prosperity indicators. Our analysis reveals that the characterization of the welfare of cities based on mobility information hinges on their corresponding development stage. Namely, while network-based predictions of welfare correlate well with economic indicators in mature cities, for developing urban areas additional information about the prosperity of their mobility neighborhood is needed. We develop a simple generative model for the allocation of population flows out of a city that balances the costs and benefits of interaction with other cities that are successful, finding that it provides a strong fit to the flows observed in the global mobility network and highlights the differences in flow patterns between developed and developing urban regions. Our results hint towards the importance of leveraging interurban connections in service of urban development and welfare."
+      "citationCount": 21,
+      "abstract": null
     },
     {
       "year": "2022",
