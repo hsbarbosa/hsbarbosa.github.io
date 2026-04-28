@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-27T08:32:12.989271+00:00",
+  "updated": "2026-04-28T08:30:52.863939+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -10,7 +10,7 @@
   "stats": {
     "paperCount": 59,
     "hIndex": 12,
-    "citationCount": 1750,
+    "citationCount": 1751,
     "i10Index": 14,
     "influentialCitationCount": 62
   },
@@ -26,8 +26,8 @@
       "venue": "Royal Society Open Science",
       "doiValue": "10.1098/rsos.241288",
       "doiUrl": "https://doi.org/10.1098/rsos.241288",
-      "citationCount": 3,
-      "abstract": null
+      "citationCount": 5,
+      "abstract": "Global ambient air pollution, a transboundary challenge, is typically addressed through interventions relying on data from spatially sparse and heterogeneously placed monitoring stations. These stations often encounter temporal data gaps due to issues such as power outages. In response, we have developed a scalable, data-driven, supervised machine learning framework. The models produced by the framework are designed to impute missing temporal and spatial measurements, thereby generating a comprehensive dataset for air pollutants including NO2, O3, PM10, PM2.5 and SO2. In this work, we produce models providing concentration estimations at 261 377 locations across the globe. The dataset, with a fine granularity of 0.25\u00b0 spatial resolution at hourly time intervals and accompanied by prediction intervals for each estimate, caters to a wide range of stakeholders relying on outdoor air pollution data for downstream assessments. This enables more detailed studies. Additionally, the model\u2019s performance across various geographical locations is examined, providing insights and recommendations for strategic placement of future monitoring stations to further enhance the model\u2019s accuracy."
     },
     {
       "year": "2025",
@@ -343,7 +343,7 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-019-12809-y",
       "doiUrl": "https://doi.org/10.1038/s41467-019-12809-y",
-      "citationCount": 206,
+      "citationCount": 207,
       "abstract": "The recent trend of rapid urbanization makes it imperative to understand urban characteristics such as infrastructure, population distribution, jobs, and services that play a key role in urban livability and sustainability. A healthy debate exists on what constitutes optimal structure regarding livability in cities, interpolating, for instance, between mono- and poly-centric organization. Here anonymous and aggregated flows generated from three hundred million users, opted-in to Location History, are used to extract global Intra-urban trips. We develop a metric that allows us to classify cities and to establish a connection between mobility organization and key urban indicators. We demonstrate that cities with strong hierarchical mobility structure display an extensive use of public transport, higher levels of walkability, lower pollutant emissions per capita and better health indicators. Our framework outperforms previous metrics, is highly scalable and can be deployed with little cost, even in areas without resources for traditional data collection."
     },
     {
