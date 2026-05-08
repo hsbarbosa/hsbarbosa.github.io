@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-07T08:39:26.263765+00:00",
+  "updated": "2026-05-08T07:46:54.101185+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -59,20 +59,6 @@
     },
     {
       "year": "2024",
-      "title": "A Data-Driven Supervised Machine Learning Approach to Estimating Global Ambient Air Pollution Concentrations With Associated Prediction Intervals",
-      "authors": [
-        "Berrisford, L.J.",
-        "Barbosa, H.",
-        "Menezes, R."
-      ],
-      "venue": "arXiv",
-      "doiValue": "10.48550/arXiv.2402.10248",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2402.10248",
-      "citationCount": 1,
-      "abstract": null
-    },
-    {
-      "year": "2024",
       "title": "Dynamic predictability and activity-location contexts in human mobility",
       "authors": [
         "Poudyal, B.",
@@ -86,8 +72,22 @@
       "venue": "Royal Society Open Science",
       "doiValue": "10.1098/rsos.240115",
       "doiUrl": "https://doi.org/10.1098/rsos.240115",
+      "citationCount": 3,
+      "abstract": null
+    },
+    {
+      "year": "2024",
+      "title": "A Data-Driven Supervised Machine Learning Approach to Estimating Global Ambient Air Pollution Concentrations With Associated Prediction Intervals",
+      "authors": [
+        "Berrisford, L.J.",
+        "Barbosa, H.",
+        "Menezes, R."
+      ],
+      "venue": "arXiv",
+      "doiValue": "10.48550/arXiv.2402.10248",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2402.10248",
       "citationCount": 1,
-      "abstract": "Human travelling behaviours are markedly regular, to a large extent predictable, and mostly driven by biological necessities and social constructs. Not surprisingly, such predictability is influenced by an array of factors ranging in scale from individual preferences and choices, through social groups and households, all the way to the global scale, such as mobility restrictions in response to external shocks such as pandemics. In this work, we explore how temporal, activity and location variations in individual-level mobility\u2014referred to as predictability states\u2014carry a large degree of information regarding the nature of mobility regularities at the population level. Our findings indicate the existence of contextual and activity signatures in predictability states, suggesting the potential for a more nuanced approach to estimating both short-term and higher-order mobility predictions. The existence of location contexts, in particular, serves as a parsimonious estimator for predictability patterns even in the case of low resolution and missing data."
+      "abstract": null
     },
     {
       "year": "2024",
@@ -115,7 +115,7 @@
       "doiValue": "10.1140/epjds/s13688-024-00489-8",
       "doiUrl": "https://doi.org/10.1140/epjds/s13688-024-00489-8",
       "citationCount": 1,
-      "abstract": null
+      "abstract": "With trends of urbanisation on the rise, providing adequate housing to individuals remains a complex issue to be addressed. Often, the slow output of relevant housing policies, coupled with quickly increasing housing costs, leaves individuals with the burden of finding housing that is affordable and in a safe location. In this paper, we unveil how transit service to employment hubs, not just housing policies, can prevent individuals from improving their housing conditions. We approach this question in three steps, applying the workflow to 20 cities in the United States of America. First, we propose a comprehensive framework to quantify housing insecurity and assign a housing demographic to each neighbourhood. Second, we use transit-pedestrian networks and public transit timetables (GTFS feeds) to estimate the time it takes to travel between two neighbourhoods using public transportation. Third, we apply geospatial autocorrelation to identify employment hotspots for each housing demographic. Finally, we use stochastic modelling to highlight how commuting to areas associated with better housing conditions results in transit commute times of over an hour in 15 cities. Ultimately, we consider the compounded burdens that come with housing insecurity, by having poor transit access to employment areas. In doing so, we highlight the importance of understanding how negative outcomes of housing insecurity coincide with various urban mechanisms, particularly emphasising the role that public transportation plays in locking vulnerable demographics into a cycle of poverty."
     },
     {
       "year": "2023",
@@ -343,7 +343,7 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-019-12809-y",
       "doiUrl": "https://doi.org/10.1038/s41467-019-12809-y",
-      "citationCount": 208,
+      "citationCount": 209,
       "abstract": "The recent trend of rapid urbanization makes it imperative to understand urban characteristics such as infrastructure, population distribution, jobs, and services that play a key role in urban livability and sustainability. A healthy debate exists on what constitutes optimal structure regarding livability in cities, interpolating, for instance, between mono- and poly-centric organization. Here anonymous and aggregated flows generated from three hundred million users, opted-in to Location History, are used to extract global Intra-urban trips. We develop a metric that allows us to classify cities and to establish a connection between mobility organization and key urban indicators. We demonstrate that cities with strong hierarchical mobility structure display an extensive use of public transport, higher levels of walkability, lower pollutant emissions per capita and better health indicators. Our framework outperforms previous metrics, is highly scalable and can be deployed with little cost, even in areas without resources for traditional data collection."
     },
     {
