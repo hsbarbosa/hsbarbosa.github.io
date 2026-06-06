@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05T09:58:14.719475+00:00",
+  "updated": "2026-06-06T08:38:36.578699+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -10,7 +10,7 @@
   "stats": {
     "paperCount": 59,
     "hIndex": 13,
-    "citationCount": 1773,
+    "citationCount": 1775,
     "i10Index": 14,
     "influentialCitationCount": 66
   },
@@ -235,8 +235,8 @@
       "venue": "PNAS Nexus",
       "doiValue": "10.1093/pnasnexus/pgac178",
       "doiUrl": "https://doi.org/10.1093/pnasnexus/pgac178",
-      "citationCount": 17,
-      "abstract": "Abstract While significant effort has been devoted to understand the role of intraurban characteristics on sustainability and growth, much remains to be understood about the effect of interurban interactions and the role cities have in determining each other\u2019s urban welfare. Here we consider a global mobility network of population flows between cities as a proxy for the communication between these regions, and analyze how it correlates with socioeconomic indicators. We use several measures of centrality to rank cities according to their importance in the mobility network, finding PageRank to be the most effective measure for reflecting these prosperity indicators. Our analysis reveals that the characterization of the welfare of cities based on mobility information hinges on their corresponding development stage. Namely, while network-based predictions of welfare correlate well with economic indicators in mature cities, for developing urban areas additional information about the prosperity of their mobility neighborhood is needed. We develop a simple generative model for the allocation of population flows out of a city that balances the costs and benefits of interaction with other cities that are successful, finding that it provides a strong fit to the flows observed in the global mobility network and highlights the differences in flow patterns between developed and developing urban regions. Our results hint towards the importance of leveraging interurban connections in service of urban development and welfare."
+      "citationCount": 21,
+      "abstract": null
     },
     {
       "year": "2022",
