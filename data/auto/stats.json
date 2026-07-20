@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T08:24:01.497484+00:00",
+  "updated": "2026-07-20T09:20:26.685664+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -10,9 +10,9 @@
   "stats": {
     "paperCount": 58,
     "hIndex": 13,
-    "citationCount": 1804,
+    "citationCount": 1807,
     "i10Index": 15,
-    "influentialCitationCount": 68
+    "influentialCitationCount": 69
   },
   "publications": [
     {
@@ -72,8 +72,8 @@
       "venue": "Royal Society Open Science",
       "doiValue": "10.1098/rsos.240115",
       "doiUrl": "https://doi.org/10.1098/rsos.240115",
-      "citationCount": 2,
-      "abstract": "Human travelling behaviours are markedly regular, to a large extent predictable, and mostly driven by biological necessities and social constructs. Not surprisingly, such predictability is influenced by an array of factors ranging in scale from individual preferences and choices, through social groups and households, all the way to the global scale, such as mobility restrictions in response to external shocks such as pandemics. In this work, we explore how temporal, activity and location variations in individual-level mobility\u2014referred to as predictability states\u2014carry a large degree of information regarding the nature of mobility regularities at the population level. Our findings indicate the existence of contextual and activity signatures in predictability states, suggesting the potential for a more nuanced approach to estimating both short-term and higher-order mobility predictions. The existence of location contexts, in particular, serves as a parsimonious estimator for predictability patterns even in the case of low resolution and missing data."
+      "citationCount": 3,
+      "abstract": null
     },
     {
       "year": "2024",
@@ -260,8 +260,8 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-021-27567-z",
       "doiUrl": "https://doi.org/10.1038/s41467-021-27567-z",
-      "citationCount": 6,
-      "abstract": null
+      "citationCount": 4,
+      "abstract": "I n the work developed in Bassolas et al. 1"
     },
     {
       "year": "2022",
