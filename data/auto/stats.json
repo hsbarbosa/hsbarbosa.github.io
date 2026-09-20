@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T10:33:15.702216+00:00",
+  "updated": "2026-09-20T10:55:39.063205+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -10,9 +10,9 @@
   "stats": {
     "paperCount": 53,
     "hIndex": 13,
-    "citationCount": 1839,
+    "citationCount": 1840,
     "i10Index": 15,
-    "influentialCitationCount": 72
+    "influentialCitationCount": 71
   },
   "publications": [
     {
@@ -318,7 +318,7 @@
       "venue": "Physics Reports",
       "doiValue": "10.1016/j.physrep.2018.01.001",
       "doiUrl": "https://doi.org/10.1016/j.physrep.2018.01.001",
-      "citationCount": 1054,
+      "citationCount": 1055,
       "abstract": null
     },
     {
