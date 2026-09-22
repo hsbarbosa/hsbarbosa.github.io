@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T12:21:24.122162+00:00",
+  "updated": "2026-09-22T11:12:43.459496+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -10,7 +10,7 @@
   "stats": {
     "paperCount": 53,
     "hIndex": 13,
-    "citationCount": 1841,
+    "citationCount": 1842,
     "i10Index": 15,
     "influentialCitationCount": 71
   },
@@ -26,8 +26,8 @@
       "venue": "Royal Society Open Science",
       "doiValue": "10.1098/rsos.241288",
       "doiUrl": "https://doi.org/10.1098/rsos.241288",
-      "citationCount": 3,
-      "abstract": null
+      "citationCount": 6,
+      "abstract": "Global ambient air pollution, a transboundary challenge, is typically addressed through interventions relying on data from spatially sparse and heterogeneously placed monitoring stations. These stations often encounter temporal data gaps due to issues such as power outages. In response, we have developed a scalable, data-driven, supervised machine learning framework. The models produced by the framework are designed to impute missing temporal and spatial measurements, thereby generating a comprehensive dataset for air pollutants including NO2, O3, PM10, PM2.5 and SO2. In this work, we produce models providing concentration estimations at 261 377 locations across the globe. The dataset, with a fine granularity of 0.25\u00b0 spatial resolution at hourly time intervals and accompanied by prediction intervals for each estimate, caters to a wide range of stakeholders relying on outdoor air pollution data for downstream assessments. This enables more detailed studies. Additionally, the model\u2019s performance across various geographical locations is examined, providing insights and recommendations for strategic placement of future monitoring stations to further enhance the model\u2019s accuracy."
     },
     {
       "year": "2025",
@@ -54,8 +54,8 @@
       "venue": "Environment and Planning B: Urban Analytics and City Science",
       "doiValue": "10.1177/23998083231219294",
       "doiUrl": "https://doi.org/10.1177/23998083231219294",
-      "citationCount": 16,
-      "abstract": null
+      "citationCount": 22,
+      "abstract": "Segregation is a highly nuanced concept that researchers have worked to define and measure over the past several decades. Conventional approaches tend to estimate segregation based on residential patterns. However, the residential dimension does not fully comprise individuals\u2019 interactions with their environment and, consequently, can misrepresent individuals\u2019 lived experiences. To address this gap, we analyse how segregation extends to other dimensions of the urban life. We accomplish this by using the Index of Concentration at the Extremes (ICE) to measure socioeconomic segregation at amenities and on public transit lines. Moreover, we consider the pivotal role that transport plays in democratising access to opportunities. Using transport networks, amenity visitations, and census data, we leverage agent-based models to approximate socioeconomic composition at amenities and on transit lines. Consequently, we can estimate socioeconomic segregation within the United States, for various aspects of urban life. We find that neighbourhoods that are segregated in the residential domain tend to exhibit similar levels of segregation in amenity visitation patterns and transit usage, albeit to a lesser extent. Moreover, we discover that low-income neighbourhoods experience a greater decrease from residential to amenity segregation, than their high-income segregated counterparts, highlighting how mobility can be used as a tool for overcoming residential inequalities, given the proper infrastructure. We identify inequalities embedded into transit service, which impose constraints on residents from segregated areas, limiting the neighbourhoods that they can access within an hour to areas that are similarly disadvantaged. By exploring socioeconomic segregation from a transit perspective, we underscore the importance of conceptualising experiential segregation, while also highlighting how transport systems can contribute to a cycle of disadvantage."
     },
     {
       "year": "2024",
@@ -115,7 +115,7 @@
       "doiValue": "10.1140/epjds/s13688-024-00489-8",
       "doiUrl": "https://doi.org/10.1140/epjds/s13688-024-00489-8",
       "citationCount": 1,
-      "abstract": null
+      "abstract": "With trends of urbanisation on the rise, providing adequate housing to individuals remains a complex issue to be addressed. Often, the slow output of relevant housing policies, coupled with quickly increasing housing costs, leaves individuals with the burden of finding housing that is affordable and in a safe location. In this paper, we unveil how transit service to employment hubs, not just housing policies, can prevent individuals from improving their housing conditions. We approach this question in three steps, applying the workflow to 20 cities in the United States of America. First, we propose a comprehensive framework to quantify housing insecurity and assign a housing demographic to each neighbourhood. Second, we use transit-pedestrian networks and public transit timetables (GTFS feeds) to estimate the time it takes to travel between two neighbourhoods using public transportation. Third, we apply geospatial autocorrelation to identify employment hotspots for each housing demographic. Finally, we use stochastic modelling to highlight how commuting to areas associated with better housing conditions results in transit commute times of over an hour in 15 cities. Ultimately, we consider the compounded burdens that come with housing insecurity, by having poor transit access to employment areas. In doing so, we highlight the importance of understanding how negative outcomes of housing insecurity coincide with various urban mechanisms, particularly emphasising the role that public transportation plays in locking vulnerable demographics into a cycle of poverty."
     },
     {
       "year": "2023",
@@ -260,8 +260,8 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-021-27567-z",
       "doiUrl": "https://doi.org/10.1038/s41467-021-27567-z",
-      "citationCount": 6,
-      "abstract": null
+      "citationCount": 5,
+      "abstract": "I n the work developed in Bassolas et al. 1"
     },
     {
       "year": "2022",
@@ -307,10 +307,10 @@
         "Hugo Barbosa",
         "Marc Barth\u00e9lemy",
         "Gourab Ghoshal",
-        "Charlotte James",
+        "Charlotte R. James",
         "Maxime Lenormand",
         "Thomas Louail",
-        "Ronaldo Menezes",
+        "Ronaldo Parente de Menezes",
         "Jos\u00e9 J. Ramasco",
         "Filippo Simini",
         "Marcello Tomasini"
@@ -318,7 +318,7 @@
       "venue": "Physics Reports",
       "doiValue": "10.1016/j.physrep.2018.01.001",
       "doiUrl": "https://doi.org/10.1016/j.physrep.2018.01.001",
-      "citationCount": 1055,
+      "citationCount": 1058,
       "abstract": null
     },
     {
@@ -332,8 +332,8 @@
         "P. R. Eastham",
         "Riccardo Gallotti",
         "Gourab Ghoshal",
-        "Bryant Gipson",
-        "Surendra Hazarie",
+        "Bryant R. Gipson",
+        "Surendra A. Hazarie",
         "Henry Kautz",
         "Onur K\u00fc\u00e7\u00fcktun\u00e7",
         "Allison Lieber",
@@ -369,7 +369,7 @@
         "Federico Botta",
         "Hugo Barbosa",
         "Filippo Privitera",
-        "Ronaldo Menezes",
+        "Ronaldo Parente de Menezes",
         "Riccardo Di Clemente"
       ],
       "venue": "Nature Human Behaviour",
@@ -382,10 +382,10 @@
       "year": 2022,
       "title": "Differences in the spatial landscape of urban mobility: Gender and socioeconomic perspectives",
       "authors": [
-        "Mariana Macedo",
+        "Mariana Gomes da Motta Macedo",
         "Laura Lotero",
         "Alessio Cardillo",
-        "Ronaldo Menezes",
+        "Ronaldo Parente de Menezes",
         "Hugo Barbosa"
       ],
       "venue": "PLoS ONE",
