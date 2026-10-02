@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T13:18:07.263345+00:00",
+  "updated": "2026-10-02T12:08:08.407484+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -8,11 +8,11 @@
     "openAlexAuthorId": "A5068497573"
   },
   "stats": {
-    "paperCount": 53,
+    "paperCount": 50,
     "hIndex": 14,
-    "citationCount": 1944,
+    "citationCount": 1940,
     "i10Index": 16,
-    "influentialCitationCount": 72
+    "influentialCitationCount": 71
   },
   "publications": [
     {
@@ -72,8 +72,8 @@
       "venue": "Royal Society Open Science",
       "doiValue": "10.1098/rsos.240115",
       "doiUrl": "https://doi.org/10.1098/rsos.240115",
-      "citationCount": 3,
-      "abstract": "Human travelling behaviours are markedly regular, to a large extent predictable, and mostly driven by biological necessities and social constructs. Not surprisingly, such predictability is influenced by an array of factors ranging in scale from individual preferences and choices, through social groups and households, all the way to the global scale, such as mobility restrictions in response to external shocks such as pandemics. In this work, we explore how temporal, activity and location variations in individual-level mobility\u2014referred to as predictability states\u2014carry a large degree of information regarding the nature of mobility regularities at the population level. Our findings indicate the existence of contextual and activity signatures in predictability states, suggesting the potential for a more nuanced approach to estimating both short-term and higher-order mobility predictions. The existence of location contexts, in particular, serves as a parsimonious estimator for predictability patterns even in the case of low resolution and missing data."
+      "citationCount": 5,
+      "abstract": null
     },
     {
       "year": "2024",
@@ -131,8 +131,8 @@
       "venue": "Nature Human Behaviour",
       "doiValue": "10.1038/s41562-023-01660-3",
       "doiUrl": "https://doi.org/10.1038/s41562-023-01660-3",
-      "citationCount": 66,
-      "abstract": "Socio-economic constructs and urban topology are crucial drivers of human mobility patterns. During the coronavirus disease 2019 pandemic, these patterns were reshaped in their components: the spatial dimension represented by the daily travelled distance, and the temporal dimension expressed as the synchronization time of commuting routines. Here, leveraging location-based data from de-identified mobile phone users, we observed that, during lockdowns restrictions, the decrease of spatial mobility is interwoven with the emergence of asynchronous mobility dynamics. The lifting of restriction in urban mobility allowed a faster recovery of the spatial dimension compared with the temporal one. Moreover, the recovery in mobility was different depending on urbanization levels and economic stratification. In rural and low-income areas, the spatial mobility dimension suffered a more considerable disruption when compared with urbanized and high-income areas. In contrast, the temporal dimension was more affected in urbanized and high-income areas than in rural and low-income areas. Studying human mobility during the coronavirus disease 2019 pandemic, the authors observe asynchronous temporal dynamics of people\u2019s movements and compare this with spatial mobility changes."
+      "citationCount": 69,
+      "abstract": null
     },
     {
       "year": "2023",
@@ -216,7 +216,7 @@
       "venue": "PLoS ONE",
       "doiValue": "10.1371/journal.pone.0260874",
       "doiUrl": "https://doi.org/10.1371/journal.pone.0260874",
-      "citationCount": 40,
+      "citationCount": 39,
       "abstract": null
     },
     {
@@ -235,8 +235,8 @@
       "venue": "PNAS Nexus",
       "doiValue": "10.1093/pnasnexus/pgac178",
       "doiUrl": "https://doi.org/10.1093/pnasnexus/pgac178",
-      "citationCount": 23,
-      "abstract": null
+      "citationCount": 19,
+      "abstract": "Abstract While significant effort has been devoted to understand the role of intraurban characteristics on sustainability and growth, much remains to be understood about the effect of interurban interactions and the role cities have in determining each other\u2019s urban welfare. Here we consider a global mobility network of population flows between cities as a proxy for the communication between these regions, and analyze how it correlates with socioeconomic indicators. We use several measures of centrality to rank cities according to their importance in the mobility network, finding PageRank to be the most effective measure for reflecting these prosperity indicators. Our analysis reveals that the characterization of the welfare of cities based on mobility information hinges on their corresponding development stage. Namely, while network-based predictions of welfare correlate well with economic indicators in mature cities, for developing urban areas additional information about the prosperity of their mobility neighborhood is needed. We develop a simple generative model for the allocation of population flows out of a city that balances the costs and benefits of interaction with other cities that are successful, finding that it provides a strong fit to the flows observed in the global mobility network and highlights the differences in flow patterns between developed and developing urban regions. Our results hint towards the importance of leveraging interurban connections in service of urban development and welfare."
     },
     {
       "year": "2022",
@@ -260,8 +260,8 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-021-27567-z",
       "doiUrl": "https://doi.org/10.1038/s41467-021-27567-z",
-      "citationCount": 5,
-      "abstract": "I n the work developed in Bassolas et al. 1"
+      "citationCount": 6,
+      "abstract": null
     },
     {
       "year": "2022",
@@ -318,7 +318,7 @@
       "venue": "Physics Reports",
       "doiValue": "10.1016/j.physrep.2018.01.001",
       "doiUrl": "https://doi.org/10.1016/j.physrep.2018.01.001",
-      "citationCount": 1062,
+      "citationCount": 1058,
       "abstract": null
     },
     {
@@ -327,9 +327,9 @@
       "authors": [
         "Aleix Bassolas",
         "Hugo Barbosa",
-        "Brian P. Dickinson",
+        "Brian Dickinson",
         "Xerxes Dotiwalla",
-        "P. R. Eastham",
+        "Paul Eastham",
         "Riccardo Gallotti",
         "Gourab Ghoshal",
         "Bryant R. Gipson",
@@ -343,7 +343,7 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-019-12809-y",
       "doiUrl": "https://doi.org/10.1038/s41467-019-12809-y",
-      "citationCount": 220,
+      "citationCount": 218,
       "abstract": "The recent trend of rapid urbanization makes it imperative to understand urban characteristics such as infrastructure, population distribution, jobs, and services that play a key role in urban livability and sustainability. A healthy debate exists on what constitutes optimal structure regarding livability in cities, interpolating, for instance, between mono- and poly-centric organization. Here anonymous and aggregated flows generated from three hundred million users, opted-in to Location History, are used to extract global Intra-urban trips. We develop a metric that allows us to classify cities and to establish a connection between mobility organization and key urban indicators. We demonstrate that cities with strong hierarchical mobility structure display an extensive use of public transport, higher levels of walkability, lower pollutant emissions per capita and better health indicators. Our framework outperforms previous metrics, is highly scalable and can be deployed with little cost, even in areas without resources for traditional data collection."
     },
     {
@@ -358,7 +358,7 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-018-04978-z",
       "doiUrl": "https://doi.org/10.1038/s41467-018-04978-z",
-      "citationCount": 184,
+      "citationCount": 186,
       "abstract": "The betweenness centrality, a path-based global measure of flow, is a static predictor of congestion and load on networks. Here we demonstrate that its statistical distribution is invariant for planar networks, that are used to model many infrastructural and biological systems. Empirical analysis of street networks from 97 cities worldwide, along with simulations of random planar graph models, indicates the observed invariance to be a consequence of a bimodal regime consisting of an underlying tree structure for high betweenness nodes, and a low betweenness regime corresponding to loops providing local path alternatives. Furthermore, the high betweenness nodes display a non-trivial spatial clustering with increasing spatial correlation as a function of the edge-density. Our results suggest that the spatial distribution of betweenness is a more accurate discriminator than its statistics for comparing static congestion patterns and its evolution across cities as demonstrated by analyzing 200 years of street data for Paris."
     },
     {
@@ -367,7 +367,7 @@
       "authors": [
         "Hugo Barbosa",
         "Surendra A. Hazarie",
-        "Brian P. Dickinson",
+        "Brian Dickinson",
         "Aleix Bassolas",
         "Adam Frank",
         "Henry Kautz",
