@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T13:00:55.540601+00:00",
+  "updated": "2026-10-07T12:55:20.726869+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -10,7 +10,7 @@
   "stats": {
     "paperCount": 50,
     "hIndex": 14,
-    "citationCount": 1943,
+    "citationCount": 1945,
     "i10Index": 16,
     "influentialCitationCount": 71
   },
