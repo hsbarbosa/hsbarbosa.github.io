@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T13:03:39.360179+00:00",
+  "updated": "2026-10-10T12:08:15.159464+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -10,7 +10,7 @@
   "stats": {
     "paperCount": 50,
     "hIndex": 14,
-    "citationCount": 1946,
+    "citationCount": 1902,
     "i10Index": 16,
     "influentialCitationCount": 71
   },
@@ -131,7 +131,7 @@
       "venue": "Nature Human Behaviour",
       "doiValue": "10.1038/s41562-023-01660-3",
       "doiUrl": "https://doi.org/10.1038/s41562-023-01660-3",
-      "citationCount": 69,
+      "citationCount": 68,
       "abstract": null
     },
     {
@@ -260,7 +260,7 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-021-27567-z",
       "doiUrl": "https://doi.org/10.1038/s41467-021-27567-z",
-      "citationCount": 6,
+      "citationCount": 4,
       "abstract": null
     },
     {
@@ -318,7 +318,7 @@
       "venue": "Physics Reports",
       "doiValue": "10.1016/j.physrep.2018.01.001",
       "doiUrl": "https://doi.org/10.1016/j.physrep.2018.01.001",
-      "citationCount": 1058,
+      "citationCount": 1033,
       "abstract": null
     },
     {
@@ -343,7 +343,7 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-019-12809-y",
       "doiUrl": "https://doi.org/10.1038/s41467-019-12809-y",
-      "citationCount": 218,
+      "citationCount": 210,
       "abstract": "The recent trend of rapid urbanization makes it imperative to understand urban characteristics such as infrastructure, population distribution, jobs, and services that play a key role in urban livability and sustainability. A healthy debate exists on what constitutes optimal structure regarding livability in cities, interpolating, for instance, between mono- and poly-centric organization. Here anonymous and aggregated flows generated from three hundred million users, opted-in to Location History, are used to extract global Intra-urban trips. We develop a metric that allows us to classify cities and to establish a connection between mobility organization and key urban indicators. We demonstrate that cities with strong hierarchical mobility structure display an extensive use of public transport, higher levels of walkability, lower pollutant emissions per capita and better health indicators. Our framework outperforms previous metrics, is highly scalable and can be deployed with little cost, even in areas without resources for traditional data collection."
     },
     {
@@ -378,7 +378,7 @@
       "venue": "Scientific Reports",
       "doiValue": "10.1038/s41598-021-87407-4",
       "doiUrl": "https://doi.org/10.1038/s41598-021-87407-4",
-      "citationCount": 98,
+      "citationCount": 96,
       "abstract": "Given the rapid recent trend of urbanization, a better understanding of how urban infrastructure mediates socioeconomic interactions and economic systems is of vital importance. While the accessibility of location-enabled devices as well as large-scale datasets of human activities, has fueled significant advances in our understanding, there is little agreement on the linkage between socioeconomic status and its influence on movement patterns, in particular, the role of inequality. Here, we analyze a heavily aggregated and anonymized summary of global mobility and investigate the relationships between socioeconomic status and mobility across a hundred cities in the US and Brazil. We uncover two types of relationships, finding either a clear connection or little-to-no interdependencies. The former tend to be characterized by low levels of public transportation usage, inequitable access to basic amenities and services, and segregated clusters of communities in terms of income, with the latter class showing the opposite trends. Our findings provide useful lessons in designing urban habitats that serve the larger interests of all inhabitants irrespective of their economic status."
     },
     {
@@ -395,7 +395,7 @@
       "venue": "Nature Human Behaviour",
       "doiValue": "10.1038/s41562-023-01660-3",
       "doiUrl": "https://doi.org/10.1038/s41562-023-01660-3",
-      "citationCount": 69,
+      "citationCount": 68,
       "abstract": "Socio-economic constructs and urban topology are crucial drivers of human mobility patterns. During the coronavirus disease 2019 pandemic, these patterns were reshaped in their components: the spatial dimension represented by the daily travelled distance, and the temporal dimension expressed as the synchronization time of commuting routines. Here, leveraging location-based data from de-identified mobile phone users, we observed that, during lockdowns restrictions, the decrease of spatial mobility is interwoven with the emergence of asynchronous mobility dynamics. The lifting of restriction in urban mobility allowed a faster recovery of the spatial dimension compared with the temporal one. Moreover, the recovery in mobility was different depending on urbanization levels and economic stratification. In rural and low-income areas, the spatial mobility dimension suffered a more considerable disruption when compared with urbanized and high-income areas. In contrast, the temporal dimension was more affected in urbanized and high-income areas than in rural and low-income areas."
     }
   ]
