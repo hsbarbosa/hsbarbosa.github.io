@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T12:22:05.093828+00:00",
+  "updated": "2026-10-12T14:49:57.581007+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -72,8 +72,8 @@
       "venue": "Royal Society Open Science",
       "doiValue": "10.1098/rsos.240115",
       "doiUrl": "https://doi.org/10.1098/rsos.240115",
-      "citationCount": 5,
-      "abstract": null
+      "citationCount": 4,
+      "abstract": "Human travelling behaviours are markedly regular, to a large extent predictable, and mostly driven by biological necessities and social constructs. Not surprisingly, such predictability is influenced by an array of factors ranging in scale from individual preferences and choices, through social groups and households, all the way to the global scale, such as mobility restrictions in response to external shocks such as pandemics. In this work, we explore how temporal, activity and location variations in individual-level mobility\u2014referred to as predictability states\u2014carry a large degree of information regarding the nature of mobility regularities at the population level. Our findings indicate the existence of contextual and activity signatures in predictability states, suggesting the potential for a more nuanced approach to estimating both short-term and higher-order mobility predictions. The existence of location contexts, in particular, serves as a parsimonious estimator for predictability patterns even in the case of low resolution and missing data."
     },
     {
       "year": "2024",
@@ -156,6 +156,20 @@
         "Menezes, R.",
         "Barbosa, H."
       ],
+      "venue": "arXiv",
+      "doiValue": "10.48550/arXiv.2304.10300",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2304.10300",
+      "citationCount": 1,
+      "abstract": null
+    },
+    {
+      "year": "2023",
+      "title": "Network Entropy as a Measure of Socioeconomic Segregation in Residential and Employment Landscapes",
+      "authors": [
+        "Iyer, N.",
+        "Menezes, R.",
+        "Barbosa, H."
+      ],
       "venue": "Springer Proceedings in Complexity",
       "doiValue": "10.1007/978-3-031-28276-8_3",
       "doiUrl": "https://doi.org/10.1007/978-3-031-28276-8_3",
@@ -187,20 +201,6 @@
       "doiValue": null,
       "doiUrl": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85165638107&partnerID=MN8TOARS",
       "citationCount": null,
-      "abstract": null
-    },
-    {
-      "year": "2023",
-      "title": "Network Entropy as a Measure of Socioeconomic Segregation in Residential and Employment Landscapes",
-      "authors": [
-        "Iyer, N.",
-        "Menezes, R.",
-        "Barbosa, H."
-      ],
-      "venue": "arXiv",
-      "doiValue": "10.48550/arXiv.2304.10300",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2304.10300",
-      "citationCount": 0,
       "abstract": null
     },
     {
@@ -318,7 +318,7 @@
       "venue": "Physics Reports",
       "doiValue": "10.1016/j.physrep.2018.01.001",
       "doiUrl": "https://doi.org/10.1016/j.physrep.2018.01.001",
-      "citationCount": 1033,
+      "citationCount": 1026,
       "abstract": null
     },
     {
@@ -343,7 +343,7 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-019-12809-y",
       "doiUrl": "https://doi.org/10.1038/s41467-019-12809-y",
-      "citationCount": 210,
+      "citationCount": 208,
       "abstract": "The recent trend of rapid urbanization makes it imperative to understand urban characteristics such as infrastructure, population distribution, jobs, and services that play a key role in urban livability and sustainability. A healthy debate exists on what constitutes optimal structure regarding livability in cities, interpolating, for instance, between mono- and poly-centric organization. Here anonymous and aggregated flows generated from three hundred million users, opted-in to Location History, are used to extract global Intra-urban trips. We develop a metric that allows us to classify cities and to establish a connection between mobility organization and key urban indicators. We demonstrate that cities with strong hierarchical mobility structure display an extensive use of public transport, higher levels of walkability, lower pollutant emissions per capita and better health indicators. Our framework outperforms previous metrics, is highly scalable and can be deployed with little cost, even in areas without resources for traditional data collection."
     },
     {
@@ -358,7 +358,7 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-018-04978-z",
       "doiUrl": "https://doi.org/10.1038/s41467-018-04978-z",
-      "citationCount": 188,
+      "citationCount": 185,
       "abstract": "The betweenness centrality, a path-based global measure of flow, is a static predictor of congestion and load on networks. Here we demonstrate that its statistical distribution is invariant for planar networks, that are used to model many infrastructural and biological systems. Empirical analysis of street networks from 97 cities worldwide, along with simulations of random planar graph models, indicates the observed invariance to be a consequence of a bimodal regime consisting of an underlying tree structure for high betweenness nodes, and a low betweenness regime corresponding to loops providing local path alternatives. Furthermore, the high betweenness nodes display a non-trivial spatial clustering with increasing spatial correlation as a function of the edge-density. Our results suggest that the spatial distribution of betweenness is a more accurate discriminator than its statistics for comparing static congestion patterns and its evolution across cities as demonstrated by analyzing 200 years of street data for Paris."
     },
     {
