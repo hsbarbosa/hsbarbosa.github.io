@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T10:37:32.761525+00:00",
+  "updated": "2026-10-19T12:34:52.659515+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -12,7 +12,7 @@
     "hIndex": 14,
     "citationCount": 1910,
     "i10Index": 16,
-    "influentialCitationCount": 72
+    "influentialCitationCount": 71
   },
   "publications": [
     {
@@ -358,7 +358,7 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-018-04978-z",
       "doiUrl": "https://doi.org/10.1038/s41467-018-04978-z",
-      "citationCount": 185,
+      "citationCount": 186,
       "abstract": "The betweenness centrality, a path-based global measure of flow, is a static predictor of congestion and load on networks. Here we demonstrate that its statistical distribution is invariant for planar networks, that are used to model many infrastructural and biological systems. Empirical analysis of street networks from 97 cities worldwide, along with simulations of random planar graph models, indicates the observed invariance to be a consequence of a bimodal regime consisting of an underlying tree structure for high betweenness nodes, and a low betweenness regime corresponding to loops providing local path alternatives. Furthermore, the high betweenness nodes display a non-trivial spatial clustering with increasing spatial correlation as a function of the edge-density. Our results suggest that the spatial distribution of betweenness is a more accurate discriminator than its statistics for comparing static congestion patterns and its evolution across cities as demonstrated by analyzing 200 years of street data for Paris."
     },
     {
