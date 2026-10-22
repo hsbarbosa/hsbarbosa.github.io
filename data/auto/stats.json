@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T11:08:32.017483+00:00",
+  "updated": "2026-10-22T11:24:36.540318+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -10,7 +10,7 @@
   "stats": {
     "paperCount": 49,
     "hIndex": 14,
-    "citationCount": 1910,
+    "citationCount": 1920,
     "i10Index": 16,
     "influentialCitationCount": 71
   },
@@ -72,8 +72,22 @@
       "venue": "Royal Society Open Science",
       "doiValue": "10.1098/rsos.240115",
       "doiUrl": "https://doi.org/10.1098/rsos.240115",
-      "citationCount": 4,
-      "abstract": "Human travelling behaviours are markedly regular, to a large extent predictable, and mostly driven by biological necessities and social constructs. Not surprisingly, such predictability is influenced by an array of factors ranging in scale from individual preferences and choices, through social groups and households, all the way to the global scale, such as mobility restrictions in response to external shocks such as pandemics. In this work, we explore how temporal, activity and location variations in individual-level mobility\u2014referred to as predictability states\u2014carry a large degree of information regarding the nature of mobility regularities at the population level. Our findings indicate the existence of contextual and activity signatures in predictability states, suggesting the potential for a more nuanced approach to estimating both short-term and higher-order mobility predictions. The existence of location contexts, in particular, serves as a parsimonious estimator for predictability patterns even in the case of low resolution and missing data."
+      "citationCount": 5,
+      "abstract": null
+    },
+    {
+      "year": "2024",
+      "title": "The role of transport systems in housing insecurity: a mobility-based analysis",
+      "authors": [
+        "Iyer, N.",
+        "Menezes, R.",
+        "Barbosa, H."
+      ],
+      "venue": "EPJ Data Science",
+      "doiValue": "10.1140/epjds/s13688-024-00489-8",
+      "doiUrl": "https://doi.org/10.1140/epjds/s13688-024-00489-8",
+      "citationCount": 2,
+      "abstract": null
     },
     {
       "year": "2024",
@@ -102,20 +116,6 @@
       "doiUrl": "https://doi.org/10.1007/978-3-031-57515-0_16",
       "citationCount": 1,
       "abstract": null
-    },
-    {
-      "year": "2024",
-      "title": "The role of transport systems in housing insecurity: a mobility-based analysis",
-      "authors": [
-        "Iyer, N.",
-        "Menezes, R.",
-        "Barbosa, H."
-      ],
-      "venue": "EPJ Data Science",
-      "doiValue": "10.1140/epjds/s13688-024-00489-8",
-      "doiUrl": "https://doi.org/10.1140/epjds/s13688-024-00489-8",
-      "citationCount": 1,
-      "abstract": "With trends of urbanisation on the rise, providing adequate housing to individuals remains a complex issue to be addressed. Often, the slow output of relevant housing policies, coupled with quickly increasing housing costs, leaves individuals with the burden of finding housing that is affordable and in a safe location. In this paper, we unveil how transit service to employment hubs, not just housing policies, can prevent individuals from improving their housing conditions. We approach this question in three steps, applying the workflow to 20 cities in the United States of America. First, we propose a comprehensive framework to quantify housing insecurity and assign a housing demographic to each neighbourhood. Second, we use transit-pedestrian networks and public transit timetables (GTFS feeds) to estimate the time it takes to travel between two neighbourhoods using public transportation. Third, we apply geospatial autocorrelation to identify employment hotspots for each housing demographic. Finally, we use stochastic modelling to highlight how commuting to areas associated with better housing conditions results in transit commute times of over an hour in 15 cities. Ultimately, we consider the compounded burdens that come with housing insecurity, by having poor transit access to employment areas. In doing so, we highlight the importance of understanding how negative outcomes of housing insecurity coincide with various urban mechanisms, particularly emphasising the role that public transportation plays in locking vulnerable demographics into a cycle of poverty."
     },
     {
       "year": "2023",
@@ -358,7 +358,7 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-018-04978-z",
       "doiUrl": "https://doi.org/10.1038/s41467-018-04978-z",
-      "citationCount": 186,
+      "citationCount": 187,
       "abstract": "The betweenness centrality, a path-based global measure of flow, is a static predictor of congestion and load on networks. Here we demonstrate that its statistical distribution is invariant for planar networks, that are used to model many infrastructural and biological systems. Empirical analysis of street networks from 97 cities worldwide, along with simulations of random planar graph models, indicates the observed invariance to be a consequence of a bimodal regime consisting of an underlying tree structure for high betweenness nodes, and a low betweenness regime corresponding to loops providing local path alternatives. Furthermore, the high betweenness nodes display a non-trivial spatial clustering with increasing spatial correlation as a function of the edge-density. Our results suggest that the spatial distribution of betweenness is a more accurate discriminator than its statistics for comparing static congestion patterns and its evolution across cities as demonstrated by analyzing 200 years of street data for Paris."
     },
     {
