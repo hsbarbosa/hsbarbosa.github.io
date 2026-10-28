@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T11:48:50.123599+00:00",
+  "updated": "2026-10-28T12:23:24.396141+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -10,7 +10,7 @@
   "stats": {
     "paperCount": 49,
     "hIndex": 14,
-    "citationCount": 1920,
+    "citationCount": 1923,
     "i10Index": 16,
     "influentialCitationCount": 71
   },
@@ -72,8 +72,8 @@
       "venue": "Royal Society Open Science",
       "doiValue": "10.1098/rsos.240115",
       "doiUrl": "https://doi.org/10.1098/rsos.240115",
-      "citationCount": 4,
-      "abstract": "Human travelling behaviours are markedly regular, to a large extent predictable, and mostly driven by biological necessities and social constructs. Not surprisingly, such predictability is influenced by an array of factors ranging in scale from individual preferences and choices, through social groups and households, all the way to the global scale, such as mobility restrictions in response to external shocks such as pandemics. In this work, we explore how temporal, activity and location variations in individual-level mobility\u2014referred to as predictability states\u2014carry a large degree of information regarding the nature of mobility regularities at the population level. Our findings indicate the existence of contextual and activity signatures in predictability states, suggesting the potential for a more nuanced approach to estimating both short-term and higher-order mobility predictions. The existence of location contexts, in particular, serves as a parsimonious estimator for predictability patterns even in the case of low resolution and missing data."
+      "citationCount": 5,
+      "abstract": null
     },
     {
       "year": "2024",
@@ -131,7 +131,7 @@
       "venue": "Nature Human Behaviour",
       "doiValue": "10.1038/s41562-023-01660-3",
       "doiUrl": "https://doi.org/10.1038/s41562-023-01660-3",
-      "citationCount": 70,
+      "citationCount": 71,
       "abstract": null
     },
     {
@@ -235,8 +235,8 @@
       "venue": "PNAS Nexus",
       "doiValue": "10.1093/pnasnexus/pgac178",
       "doiUrl": "https://doi.org/10.1093/pnasnexus/pgac178",
-      "citationCount": 19,
-      "abstract": "Abstract While significant effort has been devoted to understand the role of intraurban characteristics on sustainability and growth, much remains to be understood about the effect of interurban interactions and the role cities have in determining each other\u2019s urban welfare. Here we consider a global mobility network of population flows between cities as a proxy for the communication between these regions, and analyze how it correlates with socioeconomic indicators. We use several measures of centrality to rank cities according to their importance in the mobility network, finding PageRank to be the most effective measure for reflecting these prosperity indicators. Our analysis reveals that the characterization of the welfare of cities based on mobility information hinges on their corresponding development stage. Namely, while network-based predictions of welfare correlate well with economic indicators in mature cities, for developing urban areas additional information about the prosperity of their mobility neighborhood is needed. We develop a simple generative model for the allocation of population flows out of a city that balances the costs and benefits of interaction with other cities that are successful, finding that it provides a strong fit to the flows observed in the global mobility network and highlights the differences in flow patterns between developed and developing urban regions. Our results hint towards the importance of leveraging interurban connections in service of urban development and welfare."
+      "citationCount": 23,
+      "abstract": null
     },
     {
       "year": "2022",
@@ -318,7 +318,7 @@
       "venue": "Physics Reports",
       "doiValue": "10.1016/j.physrep.2018.01.001",
       "doiUrl": "https://doi.org/10.1016/j.physrep.2018.01.001",
-      "citationCount": 1031,
+      "citationCount": 1032,
       "abstract": null
     },
     {
@@ -382,21 +382,19 @@
       "abstract": "Given the rapid recent trend of urbanization, a better understanding of how urban infrastructure mediates socioeconomic interactions and economic systems is of vital importance. While the accessibility of location-enabled devices as well as large-scale datasets of human activities, has fueled significant advances in our understanding, there is little agreement on the linkage between socioeconomic status and its influence on movement patterns, in particular, the role of inequality. Here, we analyze a heavily aggregated and anonymized summary of global mobility and investigate the relationships between socioeconomic status and mobility across a hundred cities in the US and Brazil. We uncover two types of relationships, finding either a clear connection or little-to-no interdependencies. The former tend to be characterized by low levels of public transportation usage, inequitable access to basic amenities and services, and segregated clusters of communities in terms of income, with the latter class showing the opposite trends. Our findings provide useful lessons in designing urban habitats that serve the larger interests of all inhabitants irrespective of their economic status."
     },
     {
-      "year": 2023,
-      "title": "COVID-19 is linked to changes in the time\u2013space dimension of human mobility",
+      "year": 2015,
+      "title": "The effect of recency to human mobility",
       "authors": [
-        "Clodomir Santana",
-        "Federico Botta",
         "Hugo Barbosa",
-        "Filippo Privitera",
-        "Ronaldo Parente de Menezes",
-        "Riccardo Di Clemente"
+        "Fernando Buarque de Lima Neto",
+        "Alexandre G. Evsukoff",
+        "Ronaldo Menezes"
       ],
-      "venue": "Nature Human Behaviour",
-      "doiValue": "10.1038/s41562-023-01660-3",
-      "doiUrl": "https://doi.org/10.1038/s41562-023-01660-3",
-      "citationCount": 70,
-      "abstract": "Socio-economic constructs and urban topology are crucial drivers of human mobility patterns. During the coronavirus disease 2019 pandemic, these patterns were reshaped in their components: the spatial dimension represented by the daily travelled distance, and the temporal dimension expressed as the synchronization time of commuting routines. Here, leveraging location-based data from de-identified mobile phone users, we observed that, during lockdowns restrictions, the decrease of spatial mobility is interwoven with the emergence of asynchronous mobility dynamics. The lifting of restriction in urban mobility allowed a faster recovery of the spatial dimension compared with the temporal one. Moreover, the recovery in mobility was different depending on urbanization levels and economic stratification. In rural and low-income areas, the spatial mobility dimension suffered a more considerable disruption when compared with urbanized and high-income areas. In contrast, the temporal dimension was more affected in urbanized and high-income areas than in rural and low-income areas."
+      "venue": "EPJ Data Science",
+      "doiValue": "10.1140/epjds/s13688-015-0059-8",
+      "doiUrl": "https://doi.org/10.1140/epjds/s13688-015-0059-8",
+      "citationCount": 72,
+      "abstract": "In recent years, we have seen scientists attempt to model and explain human dynamics and in particular human movement. Many aspects of our complex life are affected by human movement such as disease spread and epidemics modeling, city planning, wireless network development, and disaster relief, to name a few. Given the myriad of applications, it is clear that a complete understanding of how people move in space can lead to considerable benefits to our society. In most of the recent works, scientists have focused on the idea that people movements are biased towards frequently-visited locations. According to them, human movement is based on a exploration/exploitation dichotomy in which individuals choose new locations (exploration) or return to frequently-visited locations (exploitation). In this work we focus on the concept of recency . We propose a model in which exploitation in human movement also considers recently-visited locations and not solely frequently-visited locations. We test our hypothesis against different empirical data of human mobility and show that our proposed model replicates the characteristic patterns of the recency bias."
     }
   ]
 }
