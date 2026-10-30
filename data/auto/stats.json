@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T12:23:24.396141+00:00",
+  "updated": "2026-10-30T12:23:50.784698+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -8,10 +8,10 @@
     "openAlexAuthorId": "A5068497573"
   },
   "stats": {
-    "paperCount": 49,
+    "paperCount": 50,
     "hIndex": 14,
-    "citationCount": 1923,
-    "i10Index": 16,
+    "citationCount": 1980,
+    "i10Index": 17,
     "influentialCitationCount": 71
   },
   "publications": [
@@ -77,6 +77,20 @@
     },
     {
       "year": "2024",
+      "title": "The role of transport systems in housing insecurity: a mobility-based analysis",
+      "authors": [
+        "Iyer, N.",
+        "Menezes, R.",
+        "Barbosa, H."
+      ],
+      "venue": "EPJ Data Science",
+      "doiValue": "10.1140/epjds/s13688-024-00489-8",
+      "doiUrl": "https://doi.org/10.1140/epjds/s13688-024-00489-8",
+      "citationCount": 2,
+      "abstract": null
+    },
+    {
+      "year": "2024",
       "title": "A Data-Driven Supervised Machine Learning Approach to Estimating Global Ambient Air Pollution Concentrations With Associated Prediction Intervals",
       "authors": [
         "Berrisford, L.J.",
@@ -104,20 +118,6 @@
       "abstract": null
     },
     {
-      "year": "2024",
-      "title": "The role of transport systems in housing insecurity: a mobility-based analysis",
-      "authors": [
-        "Iyer, N.",
-        "Menezes, R.",
-        "Barbosa, H."
-      ],
-      "venue": "EPJ Data Science",
-      "doiValue": "10.1140/epjds/s13688-024-00489-8",
-      "doiUrl": "https://doi.org/10.1140/epjds/s13688-024-00489-8",
-      "citationCount": 1,
-      "abstract": "With trends of urbanisation on the rise, providing adequate housing to individuals remains a complex issue to be addressed. Often, the slow output of relevant housing policies, coupled with quickly increasing housing costs, leaves individuals with the burden of finding housing that is affordable and in a safe location. In this paper, we unveil how transit service to employment hubs, not just housing policies, can prevent individuals from improving their housing conditions. We approach this question in three steps, applying the workflow to 20 cities in the United States of America. First, we propose a comprehensive framework to quantify housing insecurity and assign a housing demographic to each neighbourhood. Second, we use transit-pedestrian networks and public transit timetables (GTFS feeds) to estimate the time it takes to travel between two neighbourhoods using public transportation. Third, we apply geospatial autocorrelation to identify employment hotspots for each housing demographic. Finally, we use stochastic modelling to highlight how commuting to areas associated with better housing conditions results in transit commute times of over an hour in 15 cities. Ultimately, we consider the compounded burdens that come with housing insecurity, by having poor transit access to employment areas. In doing so, we highlight the importance of understanding how negative outcomes of housing insecurity coincide with various urban mechanisms, particularly emphasising the role that public transportation plays in locking vulnerable demographics into a cycle of poverty."
-    },
-    {
       "year": "2023",
       "title": "COVID-19 is linked to changes in the time\u2013space dimension of human mobility",
       "authors": [
@@ -132,7 +132,7 @@
       "doiValue": "10.1038/s41562-023-01660-3",
       "doiUrl": "https://doi.org/10.1038/s41562-023-01660-3",
       "citationCount": 71,
-      "abstract": null
+      "abstract": "Socio-economic constructs and urban topology are crucial drivers of human mobility patterns. During the coronavirus disease 2019 pandemic, these patterns were reshaped in their components: the spatial dimension represented by the daily travelled distance, and the temporal dimension expressed as the synchronization time of commuting routines. Here, leveraging location-based data from de-identified mobile phone users, we observed that, during lockdowns restrictions, the decrease of spatial mobility is interwoven with the emergence of asynchronous mobility dynamics. The lifting of restriction in urban mobility allowed a faster recovery of the spatial dimension compared with the temporal one. Moreover, the recovery in mobility was different depending on urbanization levels and economic stratification. In rural and low-income areas, the spatial mobility dimension suffered a more considerable disruption when compared with urbanized and high-income areas. In contrast, the temporal dimension was more affected in urbanized and high-income areas than in rural and low-income areas. Studying human mobility during the coronavirus disease 2019 pandemic, the authors observe asynchronous temporal dynamics of people\u2019s movements and compare this with spatial mobility changes."
     },
     {
       "year": "2023",
@@ -318,7 +318,7 @@
       "venue": "Physics Reports",
       "doiValue": "10.1016/j.physrep.2018.01.001",
       "doiUrl": "https://doi.org/10.1016/j.physrep.2018.01.001",
-      "citationCount": 1032,
+      "citationCount": 1033,
       "abstract": null
     },
     {
