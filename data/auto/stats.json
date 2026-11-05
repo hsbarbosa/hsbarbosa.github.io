@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T12:53:34.794294+00:00",
+  "updated": "2026-11-05T14:19:25.608510+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -8,11 +8,11 @@
     "openAlexAuthorId": "A5068497573"
   },
   "stats": {
-    "paperCount": 50,
+    "paperCount": 39,
     "hIndex": 14,
-    "citationCount": 1982,
-    "i10Index": 17,
-    "influentialCitationCount": 71
+    "citationCount": 1933,
+    "i10Index": 16,
+    "influentialCitationCount": 72
   },
   "publications": [
     {
@@ -26,7 +26,7 @@
       "venue": "Royal Society Open Science",
       "doiValue": "10.1098/rsos.241288",
       "doiUrl": "https://doi.org/10.1098/rsos.241288",
-      "citationCount": 3,
+      "citationCount": 5,
       "abstract": null
     },
     {
@@ -54,7 +54,7 @@
       "venue": "Environment and Planning B: Urban Analytics and City Science",
       "doiValue": "10.1177/23998083231219294",
       "doiUrl": "https://doi.org/10.1177/23998083231219294",
-      "citationCount": 18,
+      "citationCount": 21,
       "abstract": null
     },
     {
@@ -72,12 +72,12 @@
       "venue": "Royal Society Open Science",
       "doiValue": "10.1098/rsos.240115",
       "doiUrl": "https://doi.org/10.1098/rsos.240115",
-      "citationCount": 5,
+      "citationCount": 7,
       "abstract": null
     },
     {
       "year": "2024",
-      "title": "A Data-Driven Supervised Machine Learning Approach to Estimating Global Ambient Air Pollution Concentrations With Associated Prediction Intervals",
+      "title": "A data-driven supervised machine learning approach to estimating global ambient air pollution concentrations with associated prediction intervals",
       "authors": [
         "Berrisford, L.J.",
         "Barbosa, H.",
@@ -86,7 +86,21 @@
       "venue": "arXiv",
       "doiValue": "10.48550/arXiv.2402.10248",
       "doiUrl": "https://doi.org/10.48550/arXiv.2402.10248",
-      "citationCount": 1,
+      "citationCount": 5,
+      "abstract": null
+    },
+    {
+      "year": "2024",
+      "title": "The role of transport systems in housing insecurity: a mobility-based analysis",
+      "authors": [
+        "Iyer, N.",
+        "Menezes, R.",
+        "Barbosa, H."
+      ],
+      "venue": "EPJ Data Science",
+      "doiValue": "10.1140/epjds/s13688-024-00489-8",
+      "doiUrl": "https://doi.org/10.1140/epjds/s13688-024-00489-8",
+      "citationCount": 5,
       "abstract": null
     },
     {
@@ -104,20 +118,6 @@
       "abstract": null
     },
     {
-      "year": "2024",
-      "title": "The role of transport systems in housing insecurity: a mobility-based analysis",
-      "authors": [
-        "Iyer, N.",
-        "Menezes, R.",
-        "Barbosa, H."
-      ],
-      "venue": "EPJ Data Science",
-      "doiValue": "10.1140/epjds/s13688-024-00489-8",
-      "doiUrl": "https://doi.org/10.1140/epjds/s13688-024-00489-8",
-      "citationCount": 1,
-      "abstract": "With trends of urbanisation on the rise, providing adequate housing to individuals remains a complex issue to be addressed. Often, the slow output of relevant housing policies, coupled with quickly increasing housing costs, leaves individuals with the burden of finding housing that is affordable and in a safe location. In this paper, we unveil how transit service to employment hubs, not just housing policies, can prevent individuals from improving their housing conditions. We approach this question in three steps, applying the workflow to 20 cities in the United States of America. First, we propose a comprehensive framework to quantify housing insecurity and assign a housing demographic to each neighbourhood. Second, we use transit-pedestrian networks and public transit timetables (GTFS feeds) to estimate the time it takes to travel between two neighbourhoods using public transportation. Third, we apply geospatial autocorrelation to identify employment hotspots for each housing demographic. Finally, we use stochastic modelling to highlight how commuting to areas associated with better housing conditions results in transit commute times of over an hour in 15 cities. Ultimately, we consider the compounded burdens that come with housing insecurity, by having poor transit access to employment areas. In doing so, we highlight the importance of understanding how negative outcomes of housing insecurity coincide with various urban mechanisms, particularly emphasising the role that public transportation plays in locking vulnerable demographics into a cycle of poverty."
-    },
-    {
       "year": "2023",
       "title": "COVID-19 is linked to changes in the time\u2013space dimension of human mobility",
       "authors": [
@@ -132,11 +132,11 @@
       "doiValue": "10.1038/s41562-023-01660-3",
       "doiUrl": "https://doi.org/10.1038/s41562-023-01660-3",
       "citationCount": 71,
-      "abstract": null
+      "abstract": "Socio-economic constructs and urban topology are crucial drivers of human mobility patterns. During the coronavirus disease 2019 pandemic, these patterns were reshaped in their components: the spatial dimension represented by the daily travelled distance, and the temporal dimension expressed as the synchronization time of commuting routines. Here, leveraging location-based data from de-identified mobile phone users, we observed that, during lockdowns restrictions, the decrease of spatial mobility is interwoven with the emergence of asynchronous mobility dynamics. The lifting of restriction in urban mobility allowed a faster recovery of the spatial dimension compared with the temporal one. Moreover, the recovery in mobility was different depending on urbanization levels and economic stratification. In rural and low-income areas, the spatial mobility dimension suffered a more considerable disruption when compared with urbanized and high-income areas. In contrast, the temporal dimension was more affected in urbanized and high-income areas than in rural and low-income areas. Studying human mobility during the coronavirus disease 2019 pandemic, the authors observe asynchronous temporal dynamics of people\u2019s movements and compare this with spatial mobility changes."
     },
     {
       "year": "2023",
-      "title": "Mobility and Transit Segregation in Urban Spaces",
+      "title": "Mobility and transit segregation in urban spaces",
       "authors": [
         "Iyer, N.",
         "Menezes, R.",
@@ -145,7 +145,7 @@
       "venue": "arXiv",
       "doiValue": "10.48550/arXiv.2304.07086",
       "doiUrl": "https://doi.org/10.48550/arXiv.2304.07086",
-      "citationCount": 1,
+      "citationCount": 21,
       "abstract": null
     },
     {
@@ -159,7 +159,7 @@
       "venue": "arXiv",
       "doiValue": "10.48550/arXiv.2304.10300",
       "doiUrl": "https://doi.org/10.48550/arXiv.2304.10300",
-      "citationCount": 1,
+      "citationCount": 2,
       "abstract": null
     },
     {
@@ -173,7 +173,7 @@
       "venue": "Springer Proceedings in Complexity",
       "doiValue": "10.1007/978-3-031-28276-8_3",
       "doiUrl": "https://doi.org/10.1007/978-3-031-28276-8_3",
-      "citationCount": 1,
+      "citationCount": 2,
       "abstract": null
     },
     {
@@ -205,6 +205,23 @@
     },
     {
       "year": "2022",
+      "title": "COVID-19 is linked to changes in the time\u2013space dimension of human mobility",
+      "authors": [
+        "Santana, C.",
+        "Botta, F.",
+        "Barbosa, H.",
+        "Privitera, F.",
+        "Menezes, R.",
+        "Clemente, R.D."
+      ],
+      "venue": "arXiv",
+      "doiValue": "10.48550/arxiv.2201.06527",
+      "doiUrl": "https://doi.org/10.48550/arxiv.2201.06527",
+      "citationCount": 72,
+      "abstract": null
+    },
+    {
+      "year": "2022",
       "title": "Differences in the spatial landscape of urban mobility: Gender and socioeconomic perspectives",
       "authors": [
         "Macedo, M.",
@@ -216,7 +233,7 @@
       "venue": "PLoS ONE",
       "doiValue": "10.1371/journal.pone.0260874",
       "doiUrl": "https://doi.org/10.1371/journal.pone.0260874",
-      "citationCount": 40,
+      "citationCount": 42,
       "abstract": null
     },
     {
@@ -236,6 +253,24 @@
       "doiValue": "10.1093/pnasnexus/pgac178",
       "doiUrl": "https://doi.org/10.1093/pnasnexus/pgac178",
       "citationCount": 23,
+      "abstract": null
+    },
+    {
+      "year": "2022",
+      "title": "Dynamic predictability and activity-location contexts in human mobility",
+      "authors": [
+        "Poudyal, B.",
+        "Pacheco, D.",
+        "Oliveira, M.",
+        "Chen, Z.",
+        "Barbosa, H.S.",
+        "Menezes, R.",
+        "Ghoshal, G."
+      ],
+      "venue": "arXiv",
+      "doiValue": "10.48550/arXiv.2201.01376",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2201.01376",
+      "citationCount": 4,
       "abstract": null
     },
     {
@@ -262,41 +297,6 @@
       "doiUrl": "https://doi.org/10.1038/s41467-021-27567-z",
       "citationCount": 4,
       "abstract": null
-    },
-    {
-      "year": "2022",
-      "title": "COVID-19 is linked to changes in the time-space dimension of human mobility",
-      "authors": [
-        "Santana, C.",
-        "Botta, F.",
-        "Barbosa, H.",
-        "Privitera, F.",
-        "Menezes, R.",
-        "Clemente, R.D."
-      ],
-      "venue": "arXiv",
-      "doiValue": "10.48550/arxiv.2201.06527",
-      "doiUrl": "https://doi.org/10.48550/arxiv.2201.06527",
-      "citationCount": 1,
-      "abstract": null
-    },
-    {
-      "year": "2022",
-      "title": "Dynamic predictability and spatio-temporal contexts in human mobility",
-      "authors": [
-        "Poudyal, B.",
-        "Pacheco, D.",
-        "Oliveira, M.",
-        "Chen, Z.",
-        "Barbosa, H.S.",
-        "Menezes, R.",
-        "Ghoshal, G."
-      ],
-      "venue": "arXiv",
-      "doiValue": "10.48550/arXiv.2201.01376",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2201.01376",
-      "citationCount": 0,
-      "abstract": null
     }
   ],
   "topPublications": [
@@ -318,7 +318,7 @@
       "venue": "Physics Reports",
       "doiValue": "10.1016/j.physrep.2018.01.001",
       "doiUrl": "https://doi.org/10.1016/j.physrep.2018.01.001",
-      "citationCount": 1034,
+      "citationCount": 1033,
       "abstract": null
     },
     {
@@ -343,7 +343,7 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-019-12809-y",
       "doiUrl": "https://doi.org/10.1038/s41467-019-12809-y",
-      "citationCount": 208,
+      "citationCount": 204,
       "abstract": "The recent trend of rapid urbanization makes it imperative to understand urban characteristics such as infrastructure, population distribution, jobs, and services that play a key role in urban livability and sustainability. A healthy debate exists on what constitutes optimal structure regarding livability in cities, interpolating, for instance, between mono- and poly-centric organization. Here anonymous and aggregated flows generated from three hundred million users, opted-in to Location History, are used to extract global Intra-urban trips. We develop a metric that allows us to classify cities and to establish a connection between mobility organization and key urban indicators. We demonstrate that cities with strong hierarchical mobility structure display an extensive use of public transport, higher levels of walkability, lower pollutant emissions per capita and better health indicators. Our framework outperforms previous metrics, is highly scalable and can be deployed with little cost, even in areas without resources for traditional data collection."
     },
     {
@@ -358,7 +358,7 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-018-04978-z",
       "doiUrl": "https://doi.org/10.1038/s41467-018-04978-z",
-      "citationCount": 187,
+      "citationCount": 181,
       "abstract": "The betweenness centrality, a path-based global measure of flow, is a static predictor of congestion and load on networks. Here we demonstrate that its statistical distribution is invariant for planar networks, that are used to model many infrastructural and biological systems. Empirical analysis of street networks from 97 cities worldwide, along with simulations of random planar graph models, indicates the observed invariance to be a consequence of a bimodal regime consisting of an underlying tree structure for high betweenness nodes, and a low betweenness regime corresponding to loops providing local path alternatives. Furthermore, the high betweenness nodes display a non-trivial spatial clustering with increasing spatial correlation as a function of the edge-density. Our results suggest that the spatial distribution of betweenness is a more accurate discriminator than its statistics for comparing static congestion patterns and its evolution across cities as demonstrated by analyzing 200 years of street data for Paris."
     },
     {
@@ -378,23 +378,25 @@
       "venue": "Scientific Reports",
       "doiValue": "10.1038/s41598-021-87407-4",
       "doiUrl": "https://doi.org/10.1038/s41598-021-87407-4",
-      "citationCount": 99,
+      "citationCount": 100,
       "abstract": "Given the rapid recent trend of urbanization, a better understanding of how urban infrastructure mediates socioeconomic interactions and economic systems is of vital importance. While the accessibility of location-enabled devices as well as large-scale datasets of human activities, has fueled significant advances in our understanding, there is little agreement on the linkage between socioeconomic status and its influence on movement patterns, in particular, the role of inequality. Here, we analyze a heavily aggregated and anonymized summary of global mobility and investigate the relationships between socioeconomic status and mobility across a hundred cities in the US and Brazil. We uncover two types of relationships, finding either a clear connection or little-to-no interdependencies. The former tend to be characterized by low levels of public transportation usage, inequitable access to basic amenities and services, and segregated clusters of communities in terms of income, with the latter class showing the opposite trends. Our findings provide useful lessons in designing urban habitats that serve the larger interests of all inhabitants irrespective of their economic status."
     },
     {
-      "year": 2015,
-      "title": "The effect of recency to human mobility",
+      "year": 2023,
+      "title": "COVID-19 is linked to changes in the time\u2013space dimension of human mobility",
       "authors": [
+        "Clodomir Santana",
+        "Federico Botta",
         "Hugo Barbosa",
-        "Fernando Buarque de Lima Neto",
-        "Alexandre G. Evsukoff",
-        "Ronaldo Menezes"
+        "Filippo Privitera",
+        "Ronaldo Parente de Menezes",
+        "Riccardo Di Clemente"
       ],
-      "venue": "EPJ Data Science",
-      "doiValue": "10.1140/epjds/s13688-015-0059-8",
-      "doiUrl": "https://doi.org/10.1140/epjds/s13688-015-0059-8",
+      "venue": "Nature Human Behaviour",
+      "doiValue": "10.1038/s41562-023-01660-3",
+      "doiUrl": "https://doi.org/10.1038/s41562-023-01660-3",
       "citationCount": 72,
-      "abstract": "In recent years, we have seen scientists attempt to model and explain human dynamics and in particular human movement. Many aspects of our complex life are affected by human movement such as disease spread and epidemics modeling, city planning, wireless network development, and disaster relief, to name a few. Given the myriad of applications, it is clear that a complete understanding of how people move in space can lead to considerable benefits to our society. In most of the recent works, scientists have focused on the idea that people movements are biased towards frequently-visited locations. According to them, human movement is based on a exploration/exploitation dichotomy in which individuals choose new locations (exploration) or return to frequently-visited locations (exploitation). In this work we focus on the concept of recency . We propose a model in which exploitation in human movement also considers recently-visited locations and not solely frequently-visited locations. We test our hypothesis against different empirical data of human mobility and show that our proposed model replicates the characteristic patterns of the recency bias."
+      "abstract": "Socio-economic constructs and urban topology are crucial drivers of human mobility patterns. During the coronavirus disease 2019 pandemic, these patterns were reshaped in their components: the spatial dimension represented by the daily travelled distance, and the temporal dimension expressed as the synchronization time of commuting routines. Here, leveraging location-based data from de-identified mobile phone users, we observed that, during lockdowns restrictions, the decrease of spatial mobility is interwoven with the emergence of asynchronous mobility dynamics. The lifting of restriction in urban mobility allowed a faster recovery of the spatial dimension compared with the temporal one. Moreover, the recovery in mobility was different depending on urbanization levels and economic stratification. In rural and low-income areas, the spatial mobility dimension suffered a more considerable disruption when compared with urbanized and high-income areas. In contrast, the temporal dimension was more affected in urbanized and high-income areas than in rural and low-income areas."
     }
   ]
 }
