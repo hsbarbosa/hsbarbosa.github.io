@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T12:58:09.465614+00:00",
+  "updated": "2026-11-09T15:38:11.501661+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -10,7 +10,7 @@
   "stats": {
     "paperCount": 39,
     "hIndex": 14,
-    "citationCount": 2055,
+    "citationCount": 2060,
     "i10Index": 16,
     "influentialCitationCount": 73
   },
@@ -26,8 +26,8 @@
       "venue": "Royal Society Open Science",
       "doiValue": "10.1098/rsos.241288",
       "doiUrl": "https://doi.org/10.1098/rsos.241288",
-      "citationCount": 6,
-      "abstract": "Global ambient air pollution, a transboundary challenge, is typically addressed through interventions relying on data from spatially sparse and heterogeneously placed monitoring stations. These stations often encounter temporal data gaps due to issues such as power outages. In response, we have developed a scalable, data-driven, supervised machine learning framework. The models produced by the framework are designed to impute missing temporal and spatial measurements, thereby generating a comprehensive dataset for air pollutants including NO2, O3, PM10, PM2.5 and SO2. In this work, we produce models providing concentration estimations at 261 377 locations across the globe. The dataset, with a fine granularity of 0.25\u00b0 spatial resolution at hourly time intervals and accompanied by prediction intervals for each estimate, caters to a wide range of stakeholders relying on outdoor air pollution data for downstream assessments. This enables more detailed studies. Additionally, the model\u2019s performance across various geographical locations is examined, providing insights and recommendations for strategic placement of future monitoring stations to further enhance the model\u2019s accuracy."
+      "citationCount": 5,
+      "abstract": null
     },
     {
       "year": "2025",
@@ -77,20 +77,6 @@
     },
     {
       "year": "2024",
-      "title": "A data-driven supervised machine learning approach to estimating global ambient air pollution concentrations with associated prediction intervals",
-      "authors": [
-        "Berrisford, L.J.",
-        "Barbosa, H.",
-        "Menezes, R."
-      ],
-      "venue": "arXiv",
-      "doiValue": "10.48550/arXiv.2402.10248",
-      "doiUrl": "https://doi.org/10.48550/arXiv.2402.10248",
-      "citationCount": 5,
-      "abstract": null
-    },
-    {
-      "year": "2024",
       "title": "The role of transport systems in housing insecurity: a mobility-based analysis",
       "authors": [
         "Iyer, N.",
@@ -100,6 +86,20 @@
       "venue": "EPJ Data Science",
       "doiValue": "10.1140/epjds/s13688-024-00489-8",
       "doiUrl": "https://doi.org/10.1140/epjds/s13688-024-00489-8",
+      "citationCount": 6,
+      "abstract": null
+    },
+    {
+      "year": "2024",
+      "title": "A data-driven supervised machine learning approach to estimating global ambient air pollution concentrations with associated prediction intervals",
+      "authors": [
+        "Berrisford, L.J.",
+        "Barbosa, H.",
+        "Menezes, R."
+      ],
+      "venue": "arXiv",
+      "doiValue": "10.48550/arXiv.2402.10248",
+      "doiUrl": "https://doi.org/10.48550/arXiv.2402.10248",
       "citationCount": 5,
       "abstract": null
     },
@@ -131,7 +131,7 @@
       "venue": "Nature Human Behaviour",
       "doiValue": "10.1038/s41562-023-01660-3",
       "doiUrl": "https://doi.org/10.1038/s41562-023-01660-3",
-      "citationCount": 74,
+      "citationCount": 75,
       "abstract": null
     },
     {
@@ -217,7 +217,7 @@
       "venue": "arXiv",
       "doiValue": "10.48550/arxiv.2201.06527",
       "doiUrl": "https://doi.org/10.48550/arxiv.2201.06527",
-      "citationCount": 74,
+      "citationCount": 75,
       "abstract": null
     },
     {
@@ -296,7 +296,7 @@
       "doiValue": "10.1038/s41467-021-27567-z",
       "doiUrl": "https://doi.org/10.1038/s41467-021-27567-z",
       "citationCount": 5,
-      "abstract": "I n the work developed in Bassolas et al. 1"
+      "abstract": null
     }
   ],
   "topPublications": [
@@ -318,7 +318,7 @@
       "venue": "Physics Reports",
       "doiValue": "10.1016/j.physrep.2018.01.001",
       "doiUrl": "https://doi.org/10.1016/j.physrep.2018.01.001",
-      "citationCount": 1102,
+      "citationCount": 1104,
       "abstract": null
     },
     {
@@ -382,19 +382,21 @@
       "abstract": "Given the rapid recent trend of urbanization, a better understanding of how urban infrastructure mediates socioeconomic interactions and economic systems is of vital importance. While the accessibility of location-enabled devices as well as large-scale datasets of human activities, has fueled significant advances in our understanding, there is little agreement on the linkage between socioeconomic status and its influence on movement patterns, in particular, the role of inequality. Here, we analyze a heavily aggregated and anonymized summary of global mobility and investigate the relationships between socioeconomic status and mobility across a hundred cities in the US and Brazil. We uncover two types of relationships, finding either a clear connection or little-to-no interdependencies. The former tend to be characterized by low levels of public transportation usage, inequitable access to basic amenities and services, and segregated clusters of communities in terms of income, with the latter class showing the opposite trends. Our findings provide useful lessons in designing urban habitats that serve the larger interests of all inhabitants irrespective of their economic status."
     },
     {
-      "year": 2015,
-      "title": "The effect of recency to human mobility",
+      "year": 2023,
+      "title": "COVID-19 is linked to changes in the time\u2013space dimension of human mobility",
       "authors": [
+        "Clodomir Santana",
+        "Federico Botta",
         "Hugo Barbosa",
-        "Fernando Buarque de Lima Neto",
-        "Alexandre G. Evsukoff",
-        "Ronaldo Menezes"
+        "Filippo Privitera",
+        "Ronaldo Parente de Menezes",
+        "Riccardo Di Clemente"
       ],
-      "venue": "EPJ Data Science",
-      "doiValue": "10.1140/epjds/s13688-015-0059-8",
-      "doiUrl": "https://doi.org/10.1140/epjds/s13688-015-0059-8",
+      "venue": "Nature Human Behaviour",
+      "doiValue": "10.1038/s41562-023-01660-3",
+      "doiUrl": "https://doi.org/10.1038/s41562-023-01660-3",
       "citationCount": 75,
-      "abstract": "In recent years, we have seen scientists attempt to model and explain human dynamics and in particular human movement. Many aspects of our complex life are affected by human movement such as disease spread and epidemics modeling, city planning, wireless network development, and disaster relief, to name a few. Given the myriad of applications, it is clear that a complete understanding of how people move in space can lead to considerable benefits to our society. In most of the recent works, scientists have focused on the idea that people movements are biased towards frequently-visited locations. According to them, human movement is based on a exploration/exploitation dichotomy in which individuals choose new locations (exploration) or return to frequently-visited locations (exploitation). In this work we focus on the concept of recency . We propose a model in which exploitation in human movement also considers recently-visited locations and not solely frequently-visited locations. We test our hypothesis against different empirical data of human mobility and show that our proposed model replicates the characteristic patterns of the recency bias."
+      "abstract": "Socio-economic constructs and urban topology are crucial drivers of human mobility patterns. During the coronavirus disease 2019 pandemic, these patterns were reshaped in their components: the spatial dimension represented by the daily travelled distance, and the temporal dimension expressed as the synchronization time of commuting routines. Here, leveraging location-based data from de-identified mobile phone users, we observed that, during lockdowns restrictions, the decrease of spatial mobility is interwoven with the emergence of asynchronous mobility dynamics. The lifting of restriction in urban mobility allowed a faster recovery of the spatial dimension compared with the temporal one. Moreover, the recovery in mobility was different depending on urbanization levels and economic stratification. In rural and low-income areas, the spatial mobility dimension suffered a more considerable disruption when compared with urbanized and high-income areas. In contrast, the temporal dimension was more affected in urbanized and high-income areas than in rural and low-income areas."
     }
   ]
 }
