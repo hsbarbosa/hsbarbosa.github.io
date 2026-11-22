@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T15:03:59.684667+00:00",
+  "updated": "2026-11-22T14:17:50.895478+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -10,7 +10,7 @@
   "stats": {
     "paperCount": 39,
     "hIndex": 14,
-    "citationCount": 2407,
+    "citationCount": 2429,
     "i10Index": 18,
     "influentialCitationCount": 75
   },
@@ -54,8 +54,8 @@
       "venue": "Environment and Planning B: Urban Analytics and City Science",
       "doiValue": "10.1177/23998083231219294",
       "doiUrl": "https://doi.org/10.1177/23998083231219294",
-      "citationCount": 23,
-      "abstract": "Segregation is a highly nuanced concept that researchers have worked to define and measure over the past several decades. Conventional approaches tend to estimate segregation based on residential patterns. However, the residential dimension does not fully comprise individuals\u2019 interactions with their environment and, consequently, can misrepresent individuals\u2019 lived experiences. To address this gap, we analyse how segregation extends to other dimensions of the urban life. We accomplish this by using the Index of Concentration at the Extremes (ICE) to measure socioeconomic segregation at amenities and on public transit lines. Moreover, we consider the pivotal role that transport plays in democratising access to opportunities. Using transport networks, amenity visitations, and census data, we leverage agent-based models to approximate socioeconomic composition at amenities and on transit lines. Consequently, we can estimate socioeconomic segregation within the United States, for various aspects of urban life. We find that neighbourhoods that are segregated in the residential domain tend to exhibit similar levels of segregation in amenity visitation patterns and transit usage, albeit to a lesser extent. Moreover, we discover that low-income neighbourhoods experience a greater decrease from residential to amenity segregation, than their high-income segregated counterparts, highlighting how mobility can be used as a tool for overcoming residential inequalities, given the proper infrastructure. We identify inequalities embedded into transit service, which impose constraints on residents from segregated areas, limiting the neighbourhoods that they can access within an hour to areas that are similarly disadvantaged. By exploring socioeconomic segregation from a transit perspective, we underscore the importance of conceptualising experiential segregation, while also highlighting how transport systems can contribute to a cycle of disadvantage."
+      "citationCount": 27,
+      "abstract": null
     },
     {
       "year": "2024",
@@ -131,7 +131,7 @@
       "venue": "Nature Human Behaviour",
       "doiValue": "10.1038/s41562-023-01660-3",
       "doiUrl": "https://doi.org/10.1038/s41562-023-01660-3",
-      "citationCount": 88,
+      "citationCount": 89,
       "abstract": null
     },
     {
@@ -201,23 +201,6 @@
       "doiValue": null,
       "doiUrl": "http://www.scopus.com/inward/record.url?eid=2-s2.0-85165638107&partnerID=MN8TOARS",
       "citationCount": null,
-      "abstract": null
-    },
-    {
-      "year": "2022",
-      "title": "COVID-19 is linked to changes in the time\u2013space dimension of human mobility",
-      "authors": [
-        "Santana, C.",
-        "Botta, F.",
-        "Barbosa, H.",
-        "Privitera, F.",
-        "Menezes, R.",
-        "Clemente, R.D."
-      ],
-      "venue": "arXiv",
-      "doiValue": "10.48550/arxiv.2201.06527",
-      "doiUrl": "https://doi.org/10.48550/arxiv.2201.06527",
-      "citationCount": 88,
       "abstract": null
     },
     {
@@ -295,7 +278,24 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-021-27567-z",
       "doiUrl": "https://doi.org/10.1038/s41467-021-27567-z",
-      "citationCount": 6,
+      "citationCount": 7,
+      "abstract": null
+    },
+    {
+      "year": "2022",
+      "title": "COVID-19 is linked to changes in the time\u2013space dimension of human mobility",
+      "authors": [
+        "Santana, C.",
+        "Botta, F.",
+        "Barbosa, H.",
+        "Privitera, F.",
+        "Menezes, R.",
+        "Clemente, R.D."
+      ],
+      "venue": "arXiv",
+      "doiValue": "10.48550/arxiv.2201.06527",
+      "doiUrl": "https://doi.org/10.48550/arxiv.2201.06527",
+      "citationCount": 5,
       "abstract": null
     }
   ],
@@ -318,7 +318,7 @@
       "venue": "Physics Reports",
       "doiValue": "10.1016/j.physrep.2018.01.001",
       "doiUrl": "https://doi.org/10.1016/j.physrep.2018.01.001",
-      "citationCount": 1298,
+      "citationCount": 1310,
       "abstract": null
     },
     {
@@ -358,7 +358,7 @@
       "venue": "Nature Communications",
       "doiValue": "10.1038/s41467-018-04978-z",
       "doiUrl": "https://doi.org/10.1038/s41467-018-04978-z",
-      "citationCount": 215,
+      "citationCount": 218,
       "abstract": "The betweenness centrality, a path-based global measure of flow, is a static predictor of congestion and load on networks. Here we demonstrate that its statistical distribution is invariant for planar networks, that are used to model many infrastructural and biological systems. Empirical analysis of street networks from 97 cities worldwide, along with simulations of random planar graph models, indicates the observed invariance to be a consequence of a bimodal regime consisting of an underlying tree structure for high betweenness nodes, and a low betweenness regime corresponding to loops providing local path alternatives. Furthermore, the high betweenness nodes display a non-trivial spatial clustering with increasing spatial correlation as a function of the edge-density. Our results suggest that the spatial distribution of betweenness is a more accurate discriminator than its statistics for comparing static congestion patterns and its evolution across cities as demonstrated by analyzing 200 years of street data for Paris."
     },
     {
@@ -378,7 +378,7 @@
       "venue": "Scientific Reports",
       "doiValue": "10.1038/s41598-021-87407-4",
       "doiUrl": "https://doi.org/10.1038/s41598-021-87407-4",
-      "citationCount": 133,
+      "citationCount": 134,
       "abstract": "Given the rapid recent trend of urbanization, a better understanding of how urban infrastructure mediates socioeconomic interactions and economic systems is of vital importance. While the accessibility of location-enabled devices as well as large-scale datasets of human activities, has fueled significant advances in our understanding, there is little agreement on the linkage between socioeconomic status and its influence on movement patterns, in particular, the role of inequality. Here, we analyze a heavily aggregated and anonymized summary of global mobility and investigate the relationships between socioeconomic status and mobility across a hundred cities in the US and Brazil. We uncover two types of relationships, finding either a clear connection or little-to-no interdependencies. The former tend to be characterized by low levels of public transportation usage, inequitable access to basic amenities and services, and segregated clusters of communities in terms of income, with the latter class showing the opposite trends. Our findings provide useful lessons in designing urban habitats that serve the larger interests of all inhabitants irrespective of their economic status."
     },
     {
@@ -395,7 +395,7 @@
       "venue": "Nature Human Behaviour",
       "doiValue": "10.1038/s41562-023-01660-3",
       "doiUrl": "https://doi.org/10.1038/s41562-023-01660-3",
-      "citationCount": 88,
+      "citationCount": 89,
       "abstract": "Socio-economic constructs and urban topology are crucial drivers of human mobility patterns. During the coronavirus disease 2019 pandemic, these patterns were reshaped in their components: the spatial dimension represented by the daily travelled distance, and the temporal dimension expressed as the synchronization time of commuting routines. Here, leveraging location-based data from de-identified mobile phone users, we observed that, during lockdowns restrictions, the decrease of spatial mobility is interwoven with the emergence of asynchronous mobility dynamics. The lifting of restriction in urban mobility allowed a faster recovery of the spatial dimension compared with the temporal one. Moreover, the recovery in mobility was different depending on urbanization levels and economic stratification. In rural and low-income areas, the spatial mobility dimension suffered a more considerable disruption when compared with urbanized and high-income areas. In contrast, the temporal dimension was more affected in urbanized and high-income areas than in rural and low-income areas."
     }
   ]
