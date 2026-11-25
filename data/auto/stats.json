@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T17:12:20.388511+00:00",
+  "updated": "2026-11-25T16:57:15.995543+00:00",
   "source": "semantic-scholar+orcid+openalex-fallback",
   "author": {
     "name": "Hugo Barbosa",
@@ -10,8 +10,8 @@
   "stats": {
     "paperCount": 39,
     "hIndex": 14,
-    "citationCount": 2444,
-    "i10Index": 18,
+    "citationCount": 2440,
+    "i10Index": 17,
     "influentialCitationCount": 75
   },
   "publications": [
@@ -205,6 +205,23 @@
     },
     {
       "year": "2022",
+      "title": "COVID-19 is linked to changes in the time\u2013space dimension of human mobility",
+      "authors": [
+        "Santana, C.",
+        "Botta, F.",
+        "Barbosa, H.",
+        "Privitera, F.",
+        "Menezes, R.",
+        "Clemente, R.D."
+      ],
+      "venue": "arXiv",
+      "doiValue": "10.48550/arxiv.2201.06527",
+      "doiUrl": "https://doi.org/10.48550/arxiv.2201.06527",
+      "citationCount": 89,
+      "abstract": null
+    },
+    {
+      "year": "2022",
       "title": "Differences in the spatial landscape of urban mobility: Gender and socioeconomic perspectives",
       "authors": [
         "Macedo, M.",
@@ -216,7 +233,7 @@
       "venue": "PLoS ONE",
       "doiValue": "10.1371/journal.pone.0260874",
       "doiUrl": "https://doi.org/10.1371/journal.pone.0260874",
-      "citationCount": 56,
+      "citationCount": 57,
       "abstract": null
     },
     {
@@ -235,8 +252,8 @@
       "venue": "PNAS Nexus",
       "doiValue": "10.1093/pnasnexus/pgac178",
       "doiUrl": "https://doi.org/10.1093/pnasnexus/pgac178",
-      "citationCount": 25,
-      "abstract": null
+      "citationCount": 20,
+      "abstract": "Abstract While significant effort has been devoted to understand the role of intraurban characteristics on sustainability and growth, much remains to be understood about the effect of interurban interactions and the role cities have in determining each other\u2019s urban welfare. Here we consider a global mobility network of population flows between cities as a proxy for the communication between these regions, and analyze how it correlates with socioeconomic indicators. We use several measures of centrality to rank cities according to their importance in the mobility network, finding PageRank to be the most effective measure for reflecting these prosperity indicators. Our analysis reveals that the characterization of the welfare of cities based on mobility information hinges on their corresponding development stage. Namely, while network-based predictions of welfare correlate well with economic indicators in mature cities, for developing urban areas additional information about the prosperity of their mobility neighborhood is needed. We develop a simple generative model for the allocation of population flows out of a city that balances the costs and benefits of interaction with other cities that are successful, finding that it provides a strong fit to the flows observed in the global mobility network and highlights the differences in flow patterns between developed and developing urban regions. Our results hint towards the importance of leveraging interurban connections in service of urban development and welfare."
     },
     {
       "year": "2022",
@@ -280,23 +297,6 @@
       "doiUrl": "https://doi.org/10.1038/s41467-021-27567-z",
       "citationCount": 7,
       "abstract": null
-    },
-    {
-      "year": "2022",
-      "title": "COVID-19 is linked to changes in the time\u2013space dimension of human mobility",
-      "authors": [
-        "Santana, C.",
-        "Botta, F.",
-        "Barbosa, H.",
-        "Privitera, F.",
-        "Menezes, R.",
-        "Clemente, R.D."
-      ],
-      "venue": "arXiv",
-      "doiValue": "10.48550/arxiv.2201.06527",
-      "doiUrl": "https://doi.org/10.48550/arxiv.2201.06527",
-      "citationCount": 5,
-      "abstract": null
     }
   ],
   "topPublications": [
@@ -318,7 +318,7 @@
       "venue": "Physics Reports",
       "doiValue": "10.1016/j.physrep.2018.01.001",
       "doiUrl": "https://doi.org/10.1016/j.physrep.2018.01.001",
-      "citationCount": 1322,
+      "citationCount": 1319,
       "abstract": null
     },
     {
@@ -378,7 +378,7 @@
       "venue": "Scientific Reports",
       "doiValue": "10.1038/s41598-021-87407-4",
       "doiUrl": "https://doi.org/10.1038/s41598-021-87407-4",
-      "citationCount": 134,
+      "citationCount": 133,
       "abstract": "Given the rapid recent trend of urbanization, a better understanding of how urban infrastructure mediates socioeconomic interactions and economic systems is of vital importance. While the accessibility of location-enabled devices as well as large-scale datasets of human activities, has fueled significant advances in our understanding, there is little agreement on the linkage between socioeconomic status and its influence on movement patterns, in particular, the role of inequality. Here, we analyze a heavily aggregated and anonymized summary of global mobility and investigate the relationships between socioeconomic status and mobility across a hundred cities in the US and Brazil. We uncover two types of relationships, finding either a clear connection or little-to-no interdependencies. The former tend to be characterized by low levels of public transportation usage, inequitable access to basic amenities and services, and segregated clusters of communities in terms of income, with the latter class showing the opposite trends. Our findings provide useful lessons in designing urban habitats that serve the larger interests of all inhabitants irrespective of their economic status."
     },
     {
